@@ -1,0 +1,18 @@
+add_user: John Doe, U1, 1990-05-15
+add_user: Jane Smith, U2, 1995-03-22
+add_user: Alice Johnson, U3, 1988-12-10
+add_car: C1, Toyota, Camry, 180
+add_car: C2, Honda, Civic, 158
+add_car: C3, Ferrari, F458, 562
+add_car: C4, Lamborghini, Aventador, 729
+assign_car_to_user: U1, C1
+assign_car_to_user: U1, C2
+assign_car_to_user: U2, C2
+assign_car_to_user: U2, C3
+assign_car_to_user: U3, C2
+assign_car_to_user: U3, C4
+get_all_cars: U1
+get_shared_car_users: U1
+get_youngest_user_for_car: C2
+get_top_K_powerful_cars: U2, 2
+get_all_users_for_car: C2

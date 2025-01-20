@@ -1,0 +1,11 @@
+
+Create a program to manage users and their cars with a many-to-many relationship, including user birthdates and car specifications. Implement the following features:
+
+Add a user. Arguments are the user's name, ID, and birthdate (in YYYY-MM-DD format). Return true if the user was added successfully.
+Add a car. Arguments are the car's ID, make, model, and horsepower (integer). Return true if the car was added successfully.
+Assign a car to a user. Arguments are the user's ID and the car's ID. Return true if the assignment was successful.
+Get all cars for a user. Argument is the user ID. Return a comma-separated list of car IDs assigned to the user up to that moment, sorted in ascending order. Without spaces in between.
+Get all users for a car. Argument is the car ID. Return a comma-separated list of user IDs who are assigned to the car up to that moment, sorted in ascending order. Without spaces in between.
+Get shared car users. Argument is the user ID. Return a comma-separated list of user IDs who share at least one car with the given user, sorted in ascending order. Without spaces in between.
+Get youngest user for car. Argument is the car ID. Return the ID of the youngest user who has access to the car.
+Get top K powerful cars. Arguments are the user ID and K (integer). Return a comma-separated list of the K car IDs with the highest horsepower that the user has access to, sorted by horsepower in descending order. Without spaces in between.

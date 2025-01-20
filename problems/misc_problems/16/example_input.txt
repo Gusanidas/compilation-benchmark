@@ -1,0 +1,10 @@
+AddSoldier: 1, Private
+AddSoldier: 2, Sergeant
+AddSoldier: 3, Private
+AddSoldier: 4, Captain
+AddSoldier: 5, Private
+FindRanks: Private, Captain
+FindRanks: Captain, Private
+FindRanks: Private
+FindRanks: Sergeant, Captain
+FindRanks: General, Captain

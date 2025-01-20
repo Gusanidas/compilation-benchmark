@@ -1,0 +1,24 @@
+AddParticipant John 1 178
+AddParticipant Alice 2 165
+AddParticipant Bob 3 185
+AddParticipant Clara 4 170
+AddEvent BirthdayParty 101 50.0
+AddEvent Concert 102 75.0
+AddEvent Seminar 103 40.0
+AddEvent Workshop 104 60.0
+AssignParticipantToEvent 1 101
+AssignParticipantToEvent 1 102
+AssignParticipantToEvent 2 101
+AssignParticipantToEvent 2 103
+AssignParticipantToEvent 3 102
+AssignParticipantToEvent 3 104
+AssignParticipantToEvent 4 101
+AssignParticipantToEvent 4 103
+GetAllEventsForParticipant 1
+GetAllEventsForParticipant 3
+GetAllParticipantsForEvent 101
+GetAllParticipantsForEvent 103
+FindCheapestEventForParticipant 1
+FindCheapestEventForParticipant 2
+FindAverageHeightForEvent 101
+FindAverageHeightForEvent 102

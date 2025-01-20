@@ -1,0 +1,12 @@
+add_user: John Doe, U11
+get_all_cars: U11
+add_user: Jane Smith, U2
+add_car: C1, Toyota, Camry
+add_car: C2, Honda, Civic
+assign_car_to_user: U11, C1
+get_all_cars: U11
+assign_car_to_user: U11, C2
+assign_car_to_user: U2, C2
+get_all_users_for_car: C2
+get_all_cars: U11
+get_all_cars: U2

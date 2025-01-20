@@ -1,0 +1,1 @@
+Implement a stack with push and pop operations. Each line of input will be either 'push X' or 'pop', and you should print the result of each pop operation.

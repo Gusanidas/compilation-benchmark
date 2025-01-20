@@ -1,0 +1,34 @@
+Create a program to manage a social network where users can establish friendships with other users. The program should read commands from standard input, one per line, and produce an output for each command.
+Implement the following operations:
+Add a user:
+
+Input: username (string, unique), name (string), age (integer)
+Output: Returns true if the user was successfully added, false if the username already exists
+Example: AddUser john_doe "John Doe" 25
+
+Remove a user:
+
+Input: username
+Output: Returns true if the user was successfully removed, false if the user doesn't exist
+Example: RemoveUser john_doe
+
+Add a friendship:
+
+Input: username1, username2
+Output: Returns true if the friendship was successfully created, false if either user doesn't exist or if they're already friends
+Note: Friendship is mutual - if user A is friends with user B, then user B is friends with user A
+Example: AddFriendship john_doe jane_smith
+
+Remove a friendship:
+
+Input: username1, username2
+Output: Returns true if the friendship was successfully removed, false if either user doesn't exist or if they weren't friends
+Example: RemoveFriendship john_doe jane_smith
+
+Get friends:
+
+Input: username
+Output: Returns a comma-separated list of usernames (sorted alphabetically, without spaces) representing the user's friends
+Returns an empty string if the user has no friends
+Returns false if the user doesn't exist
+Example: GetFriends john_doe

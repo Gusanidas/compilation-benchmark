@@ -1,0 +1,10 @@
+AddSoldier: 1, 8, 0
+AddSoldier: 2, 5, 1
+AddSoldier: 3, 5, 1
+AddSoldier: 4, 3, 2
+AddSoldier: 5, 3, 3
+FindCommonSuperior: 4, 5
+FindCommonSuperior: 4, 2
+FindCommonSuperior: 4, 1
+FindCommonSuperior: 4, 6
+FindCommonSuperior: 1, 2

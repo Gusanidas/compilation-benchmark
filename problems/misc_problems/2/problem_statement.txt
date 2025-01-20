@@ -1,0 +1,2 @@
+Write a function that takes an array of unordered numbers and returns the array sorted in ascending order.
+        The numbers will be integers and can be positive or negative. The array will have at most 10^5 elements.

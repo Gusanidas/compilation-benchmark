@@ -1,0 +1,13 @@
+AddUser john_doe "John Doe" 25
+AddUser jane_smith "Jane Smith" 28
+AddUser bob_wilson "Bob Wilson" 30
+AddUser alice_brown "Alice Brown" 22
+AddFriendship john_doe jane_smith
+AddFriendship john_doe bob_wilson
+AddFriendship jane_smith alice_brown
+GetFriends john_doe
+GetFriends jane_smith
+RemoveFriendship john_doe jane_smith
+GetFriends john_doe
+RemoveUser bob_wilson
+GetFriends john_doe

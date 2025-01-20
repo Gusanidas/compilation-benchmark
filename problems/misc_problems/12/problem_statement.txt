@@ -1,0 +1,10 @@
+Create a program to manage participants and events that have a many-to-many relationship. Each participant can attend multiple events, and each event can have multiple participants.
+
+Implement the following operations, each provided as a command through standard input. Every command must produce an output:
+
+Add a participant: Arguments include the participant’s name and unique ID. Returns true if the participant was successfully added.
+Add an event: Arguments include the event’s name and unique ID. Returns true if the event was successfully added.
+Assign a participant to an event: Arguments include the participant’s ID and the event’s ID. Returns true if the assignment was successful.
+Get all events for a participant: Argument is the participant’s ID. Returns a comma-separated list of event IDs that the participant is currently attending, sorted in ascending order and without spaces.
+Get all participants for an event: Argument is the event’s ID. Returns a comma-separated list of participant IDs who are currently attending the event, sorted in ascending order and without spaces.
+All commands are read from standard input, one per line, and every command must produce an output line.

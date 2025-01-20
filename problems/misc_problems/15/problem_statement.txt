@@ -1,0 +1,47 @@
+Create a program to manage participants and events that have a many-to-many relationship. Each participant can attend multiple events, and each event can have multiple participants. Additionally, each assignment of a participant to an event must include two timestamps (start and end) to represent the duration of the assignment.
+
+Implement the following operations, each provided as a command through standard input. Every command must produce an output:
+
+Add a participant: Arguments include the participant’s name and unique ID. Returns true if the participant was successfully added.
+
+Add an event: Arguments include the event’s name and unique ID. Returns true if the event was successfully added.
+
+Assign a participant to an event: Arguments include the participant’s ID, the event’s ID, and two timestamps (start and end). Returns true if the assignment was successful.
+
+Get all events for a participant: Argument is the participant’s ID. Returns a comma-separated list of event IDs that the participant is currently attending, sorted in ascending order and without spaces. The timestamps associated with assignments are ignored for this operation.
+
+Get all participants for an event: Arguments include the event’s ID and a timestamp. Returns a comma-separated list of participant IDs who are attending the event at the specified timestamp, sorted in ascending order and without spaces.
+
+All commands are read from standard input, one per line, and every command must produce an output line.
+
+Example Input:
+
+AddParticipant John 1
+AddParticipant Alice 2
+AddEvent BirthdayParty 101
+AddEvent Concert 102
+AssignParticipantToEvent 1 101 1000 2000
+AssignParticipantToEvent 1 102 1500 2500
+AssignParticipantToEvent 2 101 1100 2100
+GetAllEventsForParticipant 1
+GetAllParticipantsForEvent 101 1200
+
+Example Output:
+
+true
+true
+true
+true
+true
+true
+true
+101,102
+1,2
+
+Notes:
+
+For Assign a participant to an event, the start timestamp must be less than the end timestamp. If this condition is not met, the operation should fail and return false.
+
+For Get all participants for an event, a participant is considered to be attending if the given timestamp falls within the start and end timestamps of their assignment to the event.
+
+All lists in the output must be sorted in ascending order of IDs, without spaces.

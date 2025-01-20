@@ -1,0 +1,27 @@
+AddSeries "Breaking Bad" "Bryan Cranston" "Aaron Paul" "Anna Gunn" "Bob Odenkirk"
+AddSeries "Better Call Saul" "Bob Odenkirk" "Jonathan Banks"
+AddSeries "No Episodes" "Someone"
+AddSeries "Bob's Burgers" "Bob Odenkirk" "H. Jon Benjamin"
+AddEpisode "Breaking Bad" "Pilot" 1
+AddEpisode "Breaking Bad" "Cat's in the Bag..." 2
+AddReview "Breaking Bad" "Pilot" 2
+AddReview "Breaking Bad" "Pilot" 1
+AddReview "Breaking Bad" "Cat's in the Bag..." 3
+AddReview "Breaking Bad" "Cat's in the Bag..." 4
+AddEpisode "Better Call Saul" "Uno" 1
+AddEpisode "Better Call Saul" "Dos" 2
+AddReview "Better Call Saul" "Uno" 5
+AddReview "Better Call Saul" "Uno" 4
+AddReview "Better Call Saul" "Uno" 4
+AddReview "Better Call Saul" "Uno" 5
+AddReview "Better Call Saul" "Dos" 5
+AddReview "Better Call Saul" "Dos" 5
+AddEpisode "Bob's Burgers" "Pilot" 1
+AddReview "Bob's Burgers" "Pilot" 4
+GetSeriesRating "Breaking Bad"
+GetEpisodeRating "Breaking Bad" "Pilot"
+GetEpisodeRating "Better Call Saul" "Uno"
+GetSeriesByRating
+GetEpisodesByRating "Breaking Bad"
+GetSeriesRating "No Episodes"
+GetSeriesRating "Breaking Bad"

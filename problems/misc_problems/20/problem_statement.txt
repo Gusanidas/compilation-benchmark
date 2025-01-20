@@ -1,0 +1,83 @@
+Create a program to manage a social network where users can establish friendships with other users. The program should read commands from standard input, one per line, and produce an output for each command.
+Implement the following operations:
+Add a user:
+
+Input: username (string, unique), name (string), age (integer)
+Output: Returns true if the user was successfully added, false if the username already exists
+Example: AddUser john_doe "John Doe" 25
+
+Remove a user:
+
+Input: username
+Output: Returns true if the user was successfully removed, false if the user doesn't exist
+Example: RemoveUser john_doe
+
+Add a friendship:
+
+Input: username1, username2
+Output: Returns true if the friendship was successfully created, false if either user doesn't exist or if they're already friends
+Note: Friendship is mutual - if user A is friends with user B, then user B is friends with user A
+Example: AddFriendship john_doe jane_smith
+
+Remove a friendship:
+
+Input: username1, username2
+Output: Returns true if the friendship was successfully removed, false if either user doesn't exist or if they weren't friends
+Example: RemoveFriendship john_doe jane_smith
+
+Get friends:
+
+Input: username
+Output: Returns a comma-separated list of usernames (sorted alphabetically, without spaces) representing the user's friends
+Returns an empty string if the user has no friends
+Returns false if the user doesn't exist
+Example: GetFriends john_doe
+
+DegreeOfSeparation:
+
+Input: username1, username2
+Output: Returns an integer representing the minimum number of connections needed to reach from username1 to username2
+
+Returns 0 if it's the same user
+Returns 1 if they are direct friends
+Returns 2 if they have a friend in common
+Returns 3 if they are connected through two intermediate friends
+And so on...
+Returns -1 if there is no path between the users or if either user doesn't exist
+Example: DegreeOfSeparation john_doe jane_smith
+
+
+
+Example input:
+AddUser john_doe "John Doe" 25
+AddUser jane_smith "Jane Smith" 28
+AddUser bob_wilson "Bob Wilson" 30
+AddUser alice_brown "Alice Brown" 22
+AddUser carol_davis "Carol Davis" 27
+AddFriendship john_doe jane_smith
+AddFriendship bob_wilson alice_brown
+AddFriendship jane_smith alice_brown
+DegreeOfSeparation john_doe jane_smith
+DegreeOfSeparation john_doe bob_wilson
+DegreeOfSeparation john_doe john_doe
+DegreeOfSeparation john_doe carol_davis
+GetFriends john_doe
+RemoveFriendship john_doe jane_smith
+DegreeOfSeparation john_doe alice_brown
+
+Example output:
+true
+true
+true
+true
+true
+true
+true
+true
+1
+2
+0
+-1
+jane_smith
+true
+2

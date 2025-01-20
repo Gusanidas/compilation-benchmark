@@ -1,0 +1,16 @@
+AddParticipant John 1
+AddParticipant Alice 2
+AddEvent BirthdayParty 101
+AddEvent Concert 102
+AssignParticipantToEvent 1 101 1000 2000
+AssignParticipantToEvent 1 102 1500 2500
+AssignParticipantToEvent 2 101 1100 2100
+GetAllEventsForParticipant 1
+GetAllParticipantsForEvent 101 1200
+GetAllParticipantsForEvent 101 1000
+GetAllEventsForParticipant 2
+GetAllParticipantsForEvent 102 1600
+AddParticipant Bob 3
+AssignParticipantToEvent 3 101 1300 2300
+GetAllParticipantsForEvent 101 1700
+GetAllEventsForParticipant 3

@@ -1,0 +1,57 @@
+Create a program to manage participants and events that have a many-to-many relationship. Each participant can attend multiple events, and each event can have multiple participants. The program should provide functionality to manage and query participants and events, and every operation should be executed as a command through standard input. Each command must produce an output line.
+
+Features
+
+Participant Management:
+
+Add a participant: Each participant is identified by a unique ID, and additional attributes include their name and height (in cm). This operation should return true if the participant was successfully added.
+
+Remove a participant: Specify the participant’s ID. The operation should return true if the participant was successfully removed. And false if the id is not found.
+
+Event Management:
+
+Add an event: Each event is identified by a unique ID, and additional attributes include the event’s name and price. This operation should return true if the event was successfully added.
+
+Remove an event: Specify the event’s ID. The operation should return true if the event was successfully removed. And false if the id is not found.
+
+Assignment Operations:
+
+Assign a participant to an event: Specify the participant’s ID and the event’s ID. The operation should return true if the assignment was successful.
+
+Query Operations:
+
+Get all events for a participant: Provide the participant’s ID. The operation returns a comma-separated list of event IDs that the participant is attending, sorted in ascending order and without spaces.
+
+Get all participants for an event: Provide the event’s ID. The operation returns a comma-separated list of participant IDs who are attending the event, sorted in ascending order and without spaces.
+
+Find the cheapest event attended by a participant: Provide the participant’s ID. The operation returns the ID of the event with the lowest price among the events attended by the participant. If the participant is not attending any events, return none.
+
+Find the average height of participants for an event: Provide the event’s ID. The operation returns the average height (rounded to the nearest whole number) of all participants attending the event. If no participants are attending, return 0.
+
+All query commands should return the values entered up to that moment, not events or participants added after the query.
+
+Input and Output Format
+
+All commands are provided via standard input, one command per line, and each command produces an output line. Commands are case-sensitive and must follow the specified syntax.
+
+
+Explanation of Commands:
+
+AddParticipant <name> <id> <height>: Adds a participant with the specified name, unique ID, and height (in cm).
+
+AddEvent <name> <id> <price>: Adds an event with the specified name, unique ID, and price.
+
+AssignParticipantToEvent <participant_id> <event_id>: Assigns a participant to an event.
+
+GetAllEventsForParticipant <participant_id>: Retrieves all event IDs the participant is attending, sorted in ascending order.
+
+GetAllParticipantsForEvent <event_id>: Retrieves all participant IDs attending the event, sorted in ascending order.
+
+FindCheapestEventForParticipant <participant_id>: Finds the cheapest event (by price) that the participant is attending. If no events, returns none.
+
+FindAverageHeightForEvent <event_id>: Calculates and returns the average height of participants attending the event, rounded to the nearest whole number. If no participants, returns 0.
+
+This program design ensures efficient management of participants and events while allowing for insightful queries about their relationships and attributes.
+
+
+

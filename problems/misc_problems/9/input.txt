@@ -1,0 +1,20 @@
+add_user: John Doe, U1
+add_user: Jane Smith, U2
+add_car: C1, Toyota, Camry
+add_car: C2, Honda, Civic
+assign_car_to_user: U1, C1
+assign_car_to_user: U1, C2
+assign_car_to_user: U2, C2
+get_all_cars: U1
+get_all_cars: U2
+add_user: John Dope, U134
+add_user: Carmen Dope, U135
+add_car: C134, Ferrari, 458
+get_all_cars: U134
+add_car: C135, Lamborghini, Aventador
+assign_car_to_user: U134, C134
+assign_car_to_user: U135, C135
+assign_car_to_user: U2, C135
+get_all_cars: U134
+get_all_cars: U135
+get_all_cars: U2

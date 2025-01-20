@@ -1,0 +1,11 @@
+add_user: John Doe, U1, 1990-01-01
+add_user: Jane Smith, U2, 1995-02-15
+add_car: C1, Toyota, Camry, 180
+add_car: C2, Ferrari, F458, 562
+assign_car_to_user: U1, C1
+assign_car_to_user: U2, C1
+assign_car_to_user: U2, C2
+get_all_cars: U1
+get_shared_car_users: U1
+get_youngest_user_for_car: C1
+get_top_K_powerful_cars: U2, 2

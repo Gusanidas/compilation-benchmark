@@ -1,0 +1,18 @@
+Create a program to manage a military hierarchy system. Implement the following features:
+AddSoldier: Takes three arguments:
+
+ID (integer from 1 to N with no gaps)
+Rank (integer from 1 to 10)
+SuperiorID (integer, representing the ID of this soldier's direct superior)
+Returns true if the soldier was added successfully.
+A soldier can only be added if their superior has already been added.
+
+FindCommonSuperior: Takes two arguments:
+
+FirstID (integer, representing the ID of the first soldier)
+SecondID (integer, representing the ID of the second soldier)
+Returns the ID of the lowest-ranking common superior in the hierarchy for these two soldiers. If multiple common superiors exist, return the one with the lowest rank.
+If one soldier is the superior of the other, return the ID of the superior.
+If no common superior exists, or the soldiers have not been added, return False.
+
+The program should read input from stdin and print output to stdout, with each line of input corresponding to one line of output.

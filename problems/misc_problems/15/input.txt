@@ -1,0 +1,34 @@
+AddParticipant John 1
+AddParticipant Alice 2
+AddEvent BirthdayParty 101
+AddEvent Concert 102
+AssignParticipantToEvent 1 101 1000 2000
+AssignParticipantToEvent 1 102 1500 2500
+AssignParticipantToEvent 2 101 1100 2100
+GetAllEventsForParticipant 1
+GetAllParticipantsForEvent 101 1201
+GetAllParticipantsForEvent 101 1001
+GetAllEventsForParticipant 2
+GetAllParticipantsForEvent 102 1601
+AddParticipant Bob 3
+AssignParticipantToEvent 3 101 1300 2300
+GetAllParticipantsForEvent 101 1701
+GetAllEventsForParticipant 3
+GetAllParticipantsForEvent 101 1801
+AddEvent Workshop 103
+AssignParticipantToEvent 2 103 1400 2400
+AssignParticipantToEvent 3 103 1500 2500
+GetAllEventsForParticipant 2
+GetAllParticipantsForEvent 103 1601
+AddParticipant Charlie 4
+AssignParticipantToEvent 4 101 1700 2700
+AssignParticipantToEvent 4 102 1800 2800
+GetAllEventsForParticipant 4
+GetAllParticipantsForEvent 101 1901
+GetAllParticipantsForEvent 102 2001
+AddEvent Seminar 104
+AssignParticipantToEvent 1 104 2100 3100
+AssignParticipantToEvent 2 104 2200 3200
+GetAllEventsForParticipant 1
+GetAllParticipantsForEvent 104 2301
+GetAllParticipantsForEvent 103 2401

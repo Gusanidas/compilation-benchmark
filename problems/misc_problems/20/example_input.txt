@@ -1,0 +1,15 @@
+AddUser john_doe "John Doe" 25
+AddUser jane_smith "Jane Smith" 28
+AddUser bob_wilson "Bob Wilson" 30
+AddUser alice_brown "Alice Brown" 22
+AddUser carol_davis "Carol Davis" 27
+AddFriendship john_doe jane_smith
+AddFriendship bob_wilson alice_brown
+AddFriendship jane_smith alice_brown
+DegreeOfSeparation john_doe jane_smith
+DegreeOfSeparation john_doe bob_wilson
+DegreeOfSeparation john_doe john_doe
+DegreeOfSeparation john_doe carol_davis
+GetFriends john_doe
+RemoveFriendship john_doe jane_smith
+DegreeOfSeparation john_doe alice_brown

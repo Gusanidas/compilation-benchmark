@@ -1,0 +1,52 @@
+AddSoldier: 1, Private
+AddSoldier: 2, Sergeant
+AddSoldier: 3, Private
+AddSoldier: 4, Captain
+AddSoldier: 5, Teniente
+AddSoldier: 6, Major
+AddSoldier: 7, Major
+AddSoldier: 8, Major
+AddSoldier: 9, General
+AddSoldier: 10, Private
+AddSoldier: 11, Major
+AddSoldier: 12, Colonel
+AddSoldier: 13, General
+AddSoldier: 14, Private
+AddSoldier: 15, Private
+AddSoldier: 16, Captain
+AddSoldier: 17, Private
+AddSoldier: 18, Major
+AddSoldier: 19, Colonel
+AddSoldier: 20, Captain
+AddSoldier: 21, Private
+AddSoldier: 22, Sergeant
+AddSoldier: 23, Private
+AddSoldier: 24, Captain
+AddSoldier: 25, Private
+AddSoldier: 26, Lieutenant
+AddSoldier: 27, Major
+AddSoldier: 28, Colonel
+AddSoldier: 29, General
+AddSoldier: 30, Lieutenant
+AddSoldier: 31, Major
+AddSoldier: 32, Colonel
+AddSoldier: 33, General
+AddSoldier: 34, Private
+AddSoldier: 35, Sergeant
+AddSoldier: 36, Captain
+AddSoldier: 37, Lieutenant
+AddSoldier: 38, Major
+AddSoldier: 39, Colonel
+AddSoldier: 40, General
+FindRanks: Private, Captain
+FindRanks: Sergeant, Captain
+FindRanks: General, Captain
+FindRanks: General
+FindRanks: Teniente, Lieutenant
+FindRanks: Private, Lieutenant
+FindRanks: Private, Major, Colonel
+FindRanks: Lieutenant, General, Major, Colonel
+FindRanks: Private, General, Major, Colonel
+FindRanks: Private, General, Major, Colonel, Sergeant, King
+FindRanks: Private, General, Major, Colonel, Sergeant, King, Queen
+FindRanks: General, Major, Sergeant

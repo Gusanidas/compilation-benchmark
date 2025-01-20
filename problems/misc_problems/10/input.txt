@@ -1,0 +1,36 @@
+add_user: John Doe, U1
+add_user: Jane Smith, U2
+add_car: C1, Toyota, Camry
+add_car: C2, Honda, Civic
+add_user: Alejandro Alvarez, u23b9
+add_car: Vb90, Toyota, Supra
+add_car: Cf45, Seat, Ibiza
+assign_car_to_user: U1, C1
+assign_car_to_user: U1, C2
+assign_car_to_user: U2, C2
+assign_car_to_user: u23b9, Vb90
+assign_car_to_user: u23b9, Cf45
+get_all_cars: U1
+get_all_cars: U2
+get_all_users_for_car: C1
+get_all_users_for_car: C2
+add_user: John Dope, U134
+add_user: Carmen Dope, U135
+add_car: C134, Ferrari, 458
+get_all_cars: U134
+add_car: C135, Lamborghini, Aventador
+assign_car_to_user: U134, C134
+assign_car_to_user: U135, C135
+assign_car_to_user: U2, C135
+get_all_users_for_car: C135
+get_all_cars: U134
+get_all_cars: U135
+get_all_cars: U2
+get_all_cars: u23b9
+assign_car_to_user: u23b9, C135
+assign_car_to_user: u23b9, C2
+assign_car_to_user: U1, Cf45
+assign_car_to_user: U2, Cf45
+assign_car_to_user: U135, Cf45
+get_all_users_for_car: Cf45
+get_all_cars: u23b9

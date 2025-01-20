@@ -1,0 +1,73 @@
+AddParticipant John 1 178
+AddParticipant Alice 2 165
+AddParticipant Bob 3 185
+AddParticipant Emma 4 172
+AddParticipant Michael 5 190
+AddParticipant Sarah 6 168
+AddParticipant David 7 182
+AddParticipant Lisa 8 170
+AddParticipant Tom 9 175
+AddParticipant Rachel 10 163
+AddEvent BirthdayParty 101 50.0
+AddEvent Concert 102 75.0
+AddEvent Workshop 103 40.0
+AddEvent Conference 104 120.0
+AddEvent SportsGame 105 60.0
+AddEvent MovieNight 106 25.0
+AddEvent DinnerGala 107 90.0
+AssignParticipantToEvent 1 101
+AssignParticipantToEvent 1 102
+AssignParticipantToEvent 2 101
+AssignParticipantToEvent 3 102
+AssignParticipantToEvent 4 103
+AssignParticipantToEvent 5 104
+AssignParticipantToEvent 6 105
+AssignParticipantToEvent 7 106
+AssignParticipantToEvent 8 107
+AssignParticipantToEvent 9 101
+AssignParticipantToEvent 10 102
+GetAllEventsForParticipant 1
+GetAllParticipantsForEvent 101
+FindCheapestEventForParticipant 1
+FindAverageHeightForEvent 102
+AssignParticipantToEvent 1 103
+AssignParticipantToEvent 1 104
+AssignParticipantToEvent 2 102
+AssignParticipantToEvent 3 103
+AssignParticipantToEvent 4 104
+GetAllEventsForParticipant 1
+FindAverageHeightForEvent 101
+RemoveParticipant 2
+GetAllParticipantsForEvent 101
+AddParticipant Clara 11 169
+AssignParticipantToEvent 11 101
+AssignParticipantToEvent 11 102
+GetAllEventsForParticipant 11
+RemoveEvent 101
+GetAllEventsForParticipant 11
+FindCheapestEventForParticipant 1
+FindAverageHeightForEvent 102
+AddEvent ArtExhibit 108 45.0
+AddEvent CookingClass 109 35.0
+AssignParticipantToEvent 1 108
+AssignParticipantToEvent 3 108
+AssignParticipantToEvent 5 109
+AssignParticipantToEvent 7 109
+GetAllParticipantsForEvent 108
+FindAverageHeightForEvent 109
+RemoveParticipant 5
+GetAllParticipantsForEvent 109
+AssignParticipantToEvent 11 109
+FindAverageHeightForEvent 109
+RemoveEvent 102
+GetAllEventsForParticipant 1
+AddParticipant Mark 12 188
+AddEvent YogaClass 110 30.0
+AssignParticipantToEvent 12 110
+AssignParticipantToEvent 1 110
+FindCheapestEventForParticipant 1
+FindAverageHeightForEvent 110
+RemoveParticipant 15
+RemoveEvent 200
+GetAllEventsForParticipant 12
+GetAllParticipantsForEvent 110

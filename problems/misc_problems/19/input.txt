@@ -1,0 +1,25 @@
+AddUser alex_1337 "Alex Rodriguez" 19
+AddUser nina_dev "Nina Stevens" 24
+AddUser raj_kumar "Raj Kumar" 28
+AddUser mei_wang "Mei Wang" 31
+AddUser sam_code "Sam Martinez" 22
+AddUser leo_arts "Leonardo Silva" 27
+AddUser zoe_star "Zoe Thompson" 25
+AddFriendship alex_1337 nina_dev
+AddFriendship alex_1337 raj_kumar
+AddFriendship nina_dev mei_wang
+AddFriendship mei_wang sam_code
+AddFriendship sam_code leo_arts
+AddFriendship leo_arts zoe_star
+AddFriendship nina_dev zoe_star
+GetFriends nina_dev
+GetFriends mei_wang
+AddFriendship alex_1337 zoe_star
+GetFriends zoe_star
+RemoveUser mei_wang
+GetFriends nina_dev
+AddUser mei_wang "Mei Wang" 31
+AddFriendship mei_wang nina_dev
+GetFriends mei_wang
+RemoveFriendship nina_dev zoe_star
+GetFriends nina_dev

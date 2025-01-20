@@ -1,0 +1,28 @@
+Implement a Binary Search Tree (BST) with the following specifications:
+
+1. The tree should store integer values
+2. Each node can have at most two children
+3. For any node:
+   - All values in the left subtree must be less than the node's value
+   - All values in the right subtree must be greater than the node's value
+4. Duplicate values are not allowed
+
+Required Operations:
+- insert(value): 
+  * Adds a value to the tree while maintaining BST properties
+  * Returns 1 if insertion was successful
+  * Returns 0 if value already exists in tree
+  
+- search(value):
+  * Checks if a value exists in the tree
+  * Returns 1 if found
+  * Returns 0 if not found
+
+Example Tree after insertions:
+       5
+      /      3   7
+             4
+
+Input format:
+- Each line contains one operation: either "insert X" or "search X" where X is an integer
+- Operations should be processed in order

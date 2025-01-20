@@ -1,0 +1,62 @@
+AddParticipant John 1
+AddParticipant Alice 2
+AddParticipant Alejandro 34
+AddParticipant Bob 4
+AddParticipant Maria 5
+AddParticipant Emma 6
+AddParticipant Oliver 7
+AddParticipant Liam 8
+AddParticipant Noah 9
+AddParticipant Ava 10
+AddEvent BirthdayParty 101
+AddEvent Concert 102
+AddEvent Conference 103
+AddEvent Workshop 104
+AddEvent SportsDay 105
+AddEvent Seminar 106
+AddEvent GalaDinner 107
+AddEvent CodingHackathon 108
+AssignParticipantToEvent 1 101
+AssignParticipantToEvent 1 102
+AssignParticipantToEvent 2 101
+AssignParticipantToEvent 2 105
+AssignParticipantToEvent 34 101
+AssignParticipantToEvent 34 103
+AssignParticipantToEvent 4 103
+AssignParticipantToEvent 4 107
+AssignParticipantToEvent 5 108
+AssignParticipantToEvent 6 104
+AssignParticipantToEvent 6 105
+AssignParticipantToEvent 7 104
+AssignParticipantToEvent 7 106
+AssignParticipantToEvent 8 105
+AssignParticipantToEvent 8 106
+AssignParticipantToEvent 9 102
+AssignParticipantToEvent 9 107
+AssignParticipantToEvent 10 108
+GetAllEventsForParticipant 1
+GetAllParticipantsForEvent 101
+GetAllEventsForParticipant 34
+GetAllParticipantsForEvent 103
+AssignParticipantToEvent 5 101
+AssignParticipantToEvent 6 101
+AssignParticipantToEvent 7 108
+AssignParticipantToEvent 8 107
+AssignParticipantToEvent 9 108
+AssignParticipantToEvent 10 101
+GetAllEventsForParticipant 5
+GetAllParticipantsForEvent 108
+GetAllEventsForParticipant 9
+GetAllParticipantsForEvent 107
+GetAllEventsForParticipant 6
+GetAllParticipantsForEvent 105
+AssignParticipantToEvent 2 108
+AssignParticipantToEvent 1 104
+GetAllEventsForParticipant 2
+GetAllParticipantsForEvent 102
+GetAllEventsForParticipant 10
+GetAllParticipantsForEvent 101
+AssignParticipantToEvent 8 103
+AssignParticipantToEvent 9 103
+GetAllEventsForParticipant 8
+GetAllParticipantsForEvent 103

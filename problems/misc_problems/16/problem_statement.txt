@@ -1,0 +1,8 @@
+Create a program to find the shortest contiguous sequence of soldier IDs containing specified ranks. Implement the following features:
+
+AddSoldier: Arguments are ID (integer) and rank (string). IDs must be from 1 to N with no gaps. Return true if the soldier was added successfully.
+FindRanks: Arguments are one or more ranks. Return two numbers representing the start and end IDs of the shortest contiguous sequence containing all specified ranks, separated by a comma.
+If no such sequence exists, return False. If multiple sequences have the same length, return the one with the smallest start ID.
+
+The input is going to be given by stdin, and you should print the output.
+Each line of input should have a line of output.
