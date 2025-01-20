@@ -216,27 +216,6 @@ problem_success_go = {
     "x-ai/grok-2-1212": 31.4,
 }
 
-zebra_benchmark = {
-    "anthropic/claude-3.5-sonnet": 33.4,
-    "google/gemini-1.5-flash": 25.0,
-    "meta-llama/llama-3.1-70b-instruct": 24.9,
-    "openai/gpt-4o-2024-11-20": 31.7,
-    "openai/o1-preview": 71.4,
-    "openai/o1-mini-2024-09-12": 52.6,
-    "qwen/qwen-2.5-coder-32b-instruct": 26.1,
-}
-
-scale_coding_leaderboard = {
-    "anthropic/claude-3.5-sonnet": 1097,
-    "google/gemini-flash-1.5": 967,
-    "meta-llama/llama-3.1-70b-instruct": 896,
-    "mistralai/mistral-large-2": 1052,
-    "openai/gpt-4o-2024-11-20": 1168,
-    "openai/o1-preview": 1165,
-    "openai/o1-mini-2024-09-12": 1245,
-    "deepseek/deepseek-chat": 1025,
-}
-
 
 def compute_correlation(dict1, dict2):
     """
@@ -392,8 +371,6 @@ variables = {
     "prob_rust": problem_success_rust,
     "prob_go": problem_success_go,
     "avg_prob": avg_prob,
-    "zebra": zebra_benchmark,
-    "scale": scale_coding_leaderboard,
 }
 
 
