@@ -1,10 +1,10 @@
-from model_api import make_completion_call
-from prompt_manager import get_prompt
-from jdoodle_executor import execute_code
-from code_extractor import extract_code
-from simple_agent import agent_attempt_solution
-from problem_attempt_result import ProblemAttemptResult
-from problem_loader import Problem
+from src.model_api import make_completion_call
+from src.prompt_manager import get_prompt
+from src.jdoodle_executor import execute_code
+from src.code_extractor import extract_code
+from src.simple_agent import agent_attempt_solution
+from src.problem_attempt_result import ProblemAttemptResult
+from src.problem_loader import Problem
 
 
 async def attempt_problem(
