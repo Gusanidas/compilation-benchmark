@@ -1,0 +1,61 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+.venv/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# C++
+*.obj
+*.exe
+*.out
+*.app
+
+# Rust
+target/
+
+# Go
+bin/
