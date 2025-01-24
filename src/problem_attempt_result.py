@@ -1,7 +1,7 @@
 from dataclasses import dataclass, asdict
 from typing import Optional, Dict, Any
-from jdoodle_executor import  ExecuteCodeResponse
-from problem_loader import Problem
+from src.jdoodle_executor import  ExecuteCodeResponse
+from src.problem_loader import Problem
 
 @dataclass
 class ProblemAttemptResult:

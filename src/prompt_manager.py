@@ -1,8 +1,8 @@
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 
-from problem_loader import Problem
-from jdoodle_executor import ExecuteCodeResponse
+from src.problem_loader import Problem
+from src.jdoodle_executor import ExecuteCodeResponse
 
 def _read_prompts(prompt_dir: str, prompt_names: List[str]) -> Dict[str, str]:
     dir_path = Path(prompt_dir)

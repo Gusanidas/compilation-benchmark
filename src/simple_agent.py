@@ -1,11 +1,11 @@
 from typing import Optional, Any, Dict, Tuple, List
 import asyncio
-from jdoodle_executor import ExecuteCodeResponse, execute_code
-from code_extractor import extract_code
-from problem_attempt_result import ProblemAttemptResult
-from prompts.prompt_manager import get_correction_prompt, get_prompt
-from model_api import make_completion_call
-from problem_loader import Problem
+from src.jdoodle_executor import ExecuteCodeResponse, execute_code
+from src.code_extractor import extract_code
+from src.problem_attempt_result import ProblemAttemptResult
+from src.prompt_manager import get_correction_prompt, get_prompt
+from src.model_api import make_completion_call
+from src.problem_loader import Problem
 
 # Default configuration values
 DEFAULT_MAX_ATTEMPTS = 5

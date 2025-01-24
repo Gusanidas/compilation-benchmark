@@ -4,8 +4,8 @@ import time
 import os
 import json
 import aiofiles
-from problem_attempt import attempt_problem
-from problem_loader import load_aoc_problems, Problem, load_problems
+from src.problem_attempt import attempt_problem
+from src.problem_loader import load_aoc_problems, Problem, load_problems
 
 
 def get_set_from_file(filename: str):
@@ -54,22 +54,23 @@ async def process_one_problem(
 
 
 async def main():
+    # programming_languages = ["python", "cpp", "haskell", "rust", "ocaml", "go"]
     programming_languages = ["python", "cpp", "haskell", "rust", "ocaml", "go"]
     models = [
-        "openai/gpt-4o-mini",
-        "qwen/qwen-2.5-coder-32b-instruct",
-        "google/gemini-flash-1.5",
-        "anthropic/claude-3.5-sonnet",
-        "meta-llama/llama-3.1-70b-instruct",
-        "mistralai/codestral-mamba",
-        "deepseek/deepseek-chat",
-        "openai/gpt-4o-2024-11-20",
-        "anthropic/claude-3-5-haiku",
+        # "openai/gpt-4o-mini",
+        # "qwen/qwen-2.5-coder-32b-instruct",
+        # "google/gemini-flash-1.5",
+        # "anthropic/claude-3.5-sonnet",
+        # "meta-llama/llama-3.1-70b-instruct",
+        # "mistralai/codestral-mamba",
+        # "deepseek/deepseek-chat",
+        # "openai/gpt-4o-2024-11-20",
+        # "anthropic/claude-3-5-haiku",
         "microsoft/phi-4",
-        "qwen/qvq-72b-preview",
-        "x-ai/grok-2-1212",
+        # "qwen/qvq-72b-preview",
+        # "x-ai/grok-2-1212",
     ]
-    writing_filename = "results/merged.jsonl"
+    writing_filename = "results/test_merged.jsonl"
     provider = "open-router"
 
     max_problems = 55
