@@ -1,5 +1,5 @@
 from model_api import make_completion_call
-from prompts.prompt_manager import get_prompt
+from prompt_manager import get_prompt
 from jdoodle_executor import execute_code
 from code_extractor import extract_code
 from simple_agent import agent_attempt_solution

@@ -3,7 +3,7 @@ import asyncio
 from jdoodle_executor import ExecuteCodeResponse, execute_code
 from code_extractor import extract_code
 from problem_attempt_result import ProblemAttemptResult
-from prompts.prompt_manager import get_correction_prompt, get_prompt
+from prompt_manager import get_correction_prompt, get_prompt
 from model_api import make_completion_call
 from problem_loader import Problem
 

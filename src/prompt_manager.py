@@ -27,7 +27,7 @@ def _read_prompts(prompt_dir: str, prompt_names: List[str]) -> Dict[str, str]:
     return prompts
 
 
-_prompt_dir = "prompts"
+_prompt_dir = "../prompts"
 
 _prompt_list = ["rust_prompt", "python_prompt", "cpp_prompt", "haskell_prompt", "ocaml_prompt", "rust_aoc_prompt", "python_aoc_prompt", "cpp_aoc_prompt", "haskell_aoc_prompt", "ocaml_aoc_prompt", "go_prompt", "go_aoc_prompt"]
 

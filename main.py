@@ -4,8 +4,8 @@ import time
 import os
 import json
 import aiofiles
-from problem_attempt import attempt_problem
-from problem_loader import load_aoc_problems, Problem, load_problems
+from src.problem_attempt import attempt_problem
+from src.problem_loader import load_aoc_problems, Problem, load_problems
 
 
 def get_set_from_file(filename: str):
