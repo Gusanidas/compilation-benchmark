@@ -36,6 +36,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.pdb
+*.python-version
 
 # Node.js
 node_modules/
