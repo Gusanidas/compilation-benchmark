@@ -27,6 +27,7 @@ Thumbs.db
 .vscode/
 .idea/
 .venv/
+.env
 *.sublime-project
 *.sublime-workspace
 
