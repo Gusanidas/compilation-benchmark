@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import random
 import time
@@ -7,6 +8,15 @@ import aiofiles
 from src.problem_attempt import attempt_problem
 from src.problem_loader import load_aoc_problems, Problem, load_problems
 
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Compilation Benchmark")
+    parser.add_argument('--max_problems', type=int, default=55, help='Maximum number of problems to process')
+    parser.add_argument('--max_concurrent_tasks', type=int, default=20, help='Maximum number of concurrent tasks, reduce this parameter to avoid rate limiting')
+    parser.add_argument('-o', '--output_file', type=str, default="results/test_merged.jsonl", help='Output file name')
+    parser.add_argument('--provider', type=str, choices=['open-router', 'llama-cpp', 'ollama'], default="open-router", help='Provider name')
+    parser.add_argument('--rerun_problems', action='store_true', help='If set, will rerun all problems, otherwise will skip problems that are already in the output file')
+    parser.add_argument('-t', '--temperature', type=float, default=1.0, help='Temperature factor to use for the LM text generation')
+    return parser.parse_args()
 
 def get_set_from_file(filename: str):
     result = set()
@@ -70,15 +80,18 @@ async def main():
         # "qwen/qvq-72b-preview",
         # "x-ai/grok-2-1212",
     ]
-    writing_filename = "results/test_merged.jsonl"
-    provider = "open-router"
 
-    max_problems = 55
-    max_concurrent_tasks = 20
+    args = parse_arguments()
 
-    avoid_duplicate_problems = True
-    if avoid_duplicate_problems and os.path.exists(writing_filename):
-        existing_problems = get_set_from_file(writing_filename)
+    max_problems = args.max_problems
+    max_concurrent_tasks = args.max_concurrent_tasks
+    output_file = args.output_file
+    provider = args.provider
+    rerun_problems = args.rerun_problems
+    temperature = args.temperature
+
+    if (not rerun_problems) and os.path.exists(output_file):
+        existing_problems = get_set_from_file(output_file)
     else:
         existing_problems = set()
 
@@ -97,7 +110,7 @@ async def main():
                     continue
                 tasks.append(
                     process_one_problem(
-                        model, language, problem, writing_filename, provider, semaphore, temperature=1.1,
+                        model, language, problem, output_file, provider, semaphore, temperature=temperature,
                     )
                 )
 
