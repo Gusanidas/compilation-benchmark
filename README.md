@@ -33,15 +33,15 @@ Writing Haskell code that compiles correlates more with writing Ocaml code that 
 Python and Go are a bit different as most attempts compile correctly.
 Focusing only on Rust, Haskell, C++ and Ocaml.
 
-![correlation_image](correlation_1.png)
+![correlation_image](img/correlation_1.png)
 
 ## Some AOC results #
 
 Some graphs comparing the perfromance of different models in Advent of Code 2024
 
-![python aoc](python_aoc_2.png)
-![rust_aoc](rust_aoc_2.png)
-![ocaml_aoc](ocaml_aoc_2.png)
-![haskell_aoc](haskell_aoc_2.png)
-![cpp aoc](cpp_aoc_2.png)
-![go aoc](go_aoc_2.png)
+![python aoc](img/python_aoc_2.png)
+![rust_aoc](img/rust_aoc_2.png)
+![ocaml_aoc](img/ocaml_aoc_2.png)
+![haskell_aoc](img/haskell_aoc_2.png)
+![cpp aoc](img/cpp_aoc_2.png)
+![go aoc](img/go_aoc_2.png)
