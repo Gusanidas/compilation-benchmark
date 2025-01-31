@@ -1,0 +1,1847 @@
+Statistics have been written to model_stats.csv
+
+Detailed Statistics:
+------------------------------------------------------------------------------------------------------------------------
+Language     Model                                            Total    Compile %    Runtime %    Correct % Avg Attempts
+------------------------------------------------------------------------------------------------------------------------
+ada          agent_deepseek/deepseek-chat                         0         0.0%         0.0%         0.0%         0.0
+ada          anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+ada          anthropic/claude-3.5-sonnet                         74        47.3%        47.3%        16.9%         2.0
+ada          deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+ada          deepseek/deepseek-r1                                72        20.8%        20.8%         9.0%         1.9
+ada          deepseek/deepseek-r1-distill-llama-70b              22         0.0%         0.0%         0.0%         1.4
+ada          google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+ada          google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+ada          google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+ada          meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+ada          openai/gpt-4o-2024-11-20                            73         3.4%         3.4%         0.0%         1.8
+ada          openai/o1-mini-2024-09-12                           74        10.1%        10.1%         5.4%         1.4
+ada          qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+cobol        anthropic/claude-3.5-sonnet                          6        50.0%        50.0%        16.7%         1.0
+cobol        deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+cobol        openai/gpt-4o-2024-11-20                             4        25.0%        25.0%         0.0%         1.0
+cobol        openai/o1-mini-2024-09-12                            5         0.0%         0.0%         0.0%         1.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+cpp          agent_deepseek/deepseek-chat                         0         0.0%         0.0%         0.0%         0.0
+cpp          agent_openai/gpt-4o-mini                             0         0.0%         0.0%         0.0%         0.0
+cpp          agent_qwen/qwen-2.5-coder-32b-instruct               0         0.0%         0.0%         0.0%         0.0
+cpp          anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+cpp          anthropic/claude-3.5-sonnet                         70        79.2%        77.3%        51.5%         2.2
+cpp          deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+cpp          deepseek/deepseek-r1                                70        92.1%        92.1%        72.9%         1.5
+cpp          deepseek/deepseek-r1-distill-llama-70b              27        61.1%        61.1%        53.7%         1.4
+cpp          google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+cpp          google/gemini-2.0-flash-thinking-exp:free            0         0.0%         0.0%         0.0%         0.0
+cpp          google/gemini-flash-1.5                              0         0.0%         0.0%         0.0%         0.0
+cpp          google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+cpp          google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+cpp          meta-llama/llama-3.1-405b-instruct                   0         0.0%         0.0%         0.0%         0.0
+cpp          meta-llama/llama-3.1-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+cpp          meta-llama/llama-3.1-8b-instruct                     0         0.0%         0.0%         0.0%         0.0
+cpp          meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+cpp          microsoft/phi-4                                      0         0.0%         0.0%         0.0%         0.0
+cpp          mistralai/codestral-2501                             0         0.0%         0.0%         0.0%         0.0
+cpp          mistralai/codestral-mamba                            0         0.0%         0.0%         0.0%         0.0
+cpp          openai/gpt-4o-2024-11-20                            72        83.3%        78.7%        40.0%         1.8
+cpp          openai/gpt-4o-mini                                   0         0.0%         0.0%         0.0%         0.0
+cpp          openai/o1-mini-2024-09-12                           71        95.8%        93.7%        69.7%         1.5
+cpp          qwen/qvq-72b-preview                                 0         0.0%         0.0%         0.0%         0.0
+cpp          qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+cpp          qwen/qwq-32b-preview                                 0         0.0%         0.0%         0.0%         0.0
+cpp          x-ai/grok-2-1212                                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+d            anthropic/claude-3.5-sonnet                         26        81.7%        81.7%        63.5%         4.0
+d            deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+d            deepseek/deepseek-r1                                26        15.4%        15.4%        11.5%         1.6
+d            deepseek/deepseek-r1-distill-llama-70b              21         2.4%         2.4%         2.4%         1.9
+d            openai/gpt-4o-2024-11-20                            26         5.8%         5.8%         5.8%         3.9
+d            openai/o1-mini-2024-09-12                           26         5.8%         5.8%         5.8%         1.8
+
+------------------------------------------------------------------------------------------------------------------------
+
+fortran      anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+fortran      anthropic/claude-3.5-sonnet                         21        69.0%        69.0%        45.2%         1.8
+fortran      deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+fortran      deepseek/deepseek-r1                                 7        71.4%        71.4%        57.1%         1.0
+fortran      deepseek/deepseek-r1-distill-qwen-32b                0         0.0%         0.0%         0.0%         0.0
+fortran      gemini-1.5-pro                                       0         0.0%         0.0%         0.0%         0.0
+fortran      gemini-2.0-flash-exp                                 0         0.0%         0.0%         0.0%         0.0
+fortran      gemini-2.0-flash-thinking-exp-01-21                  0         0.0%         0.0%         0.0%         0.0
+fortran      gemini-exp-1206                                     13        53.8%        53.8%        38.5%         1.2
+fortran      openai/gpt-4o-2024-11-20                            21         9.5%         9.5%         0.0%         1.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+go           anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+go           anthropic/claude-3.5-sonnet                         71        89.4%        81.0%        54.2%         1.1
+go           deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+go           deepseek/deepseek-r1                                70        97.1%        97.1%        71.4%         1.0
+go           deepseek/deepseek-r1-distill-llama-70b              24       100.0%       100.0%        35.4%         1.1
+go           google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+go           google/gemini-2.0-flash-thinking-exp:free            0         0.0%         0.0%         0.0%         0.0
+go           google/gemini-flash-1.5                              0         0.0%         0.0%         0.0%         0.0
+go           google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+go           google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+go           meta-llama/llama-3.1-405b-instruct                   0         0.0%         0.0%         0.0%         0.0
+go           meta-llama/llama-3.1-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+go           meta-llama/llama-3.1-8b-instruct                     0         0.0%         0.0%         0.0%         0.0
+go           meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+go           microsoft/phi-4                                      0         0.0%         0.0%         0.0%         0.0
+go           mistralai/codestral-2501                             0         0.0%         0.0%         0.0%         0.0
+go           mistralai/codestral-mamba                            0         0.0%         0.0%         0.0%         0.0
+go           openai/gpt-4o-2024-11-20                            71        95.1%        90.1%        41.5%         1.7
+go           openai/gpt-4o-mini                                   0         0.0%         0.0%         0.0%         0.0
+go           openai/o1-mini-2024-09-12                           72        98.6%        91.7%        67.4%         1.1
+go           qwen/qvq-72b-preview                                 0         0.0%         0.0%         0.0%         0.0
+go           qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+go           qwen/qwq-32b-preview                                 0         0.0%         0.0%         0.0%         0.0
+go           x-ai/grok-2-1212                                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+haskell      agent_deepseek/deepseek-chat                         0         0.0%         0.0%         0.0%         0.0
+haskell      agent_openai/gpt-4o-mini                             0         0.0%         0.0%         0.0%         0.0
+haskell      agent_qwen/qwen-2.5-coder-32b-instruct               0         0.0%         0.0%         0.0%         0.0
+haskell      anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+haskell      anthropic/claude-3.5-sonnet                         70        49.6%        47.3%        23.7%         2.2
+haskell      deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+haskell      deepseek/deepseek-r1                                71        65.5%        65.5%        47.2%         1.5
+haskell      deepseek/deepseek-r1-distill-llama-70b              64        10.9%        10.9%         7.0%         1.4
+haskell      google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+haskell      google/gemini-2.0-flash-thinking-exp:free            0         0.0%         0.0%         0.0%         0.0
+haskell      google/gemini-flash-1.5                              0         0.0%         0.0%         0.0%         0.0
+haskell      google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+haskell      google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+haskell      google/gemma-2-9b-it:free                            0         0.0%         0.0%         0.0%         0.0
+haskell      meta-llama/llama-3.1-405b-instruct                   0         0.0%         0.0%         0.0%         0.0
+haskell      meta-llama/llama-3.1-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+haskell      meta-llama/llama-3.1-8b-instruct                     0         0.0%         0.0%         0.0%         0.0
+haskell      meta-llama/llama-3.1-8b-instruct:free                0         0.0%         0.0%         0.0%         0.0
+haskell      meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+haskell      microsoft/phi-4                                      0         0.0%         0.0%         0.0%         0.0
+haskell      minimax/minimax-01                                   0         0.0%         0.0%         0.0%         0.0
+haskell      mistralai/codestral-2501                             0         0.0%         0.0%         0.0%         0.0
+haskell      mistralai/codestral-mamba                            0         0.0%         0.0%         0.0%         0.0
+haskell      openai/gpt-4o-2024-11-20                            74        53.6%        49.1%        29.3%         2.0
+haskell      openai/gpt-4o-mini                                   0         0.0%         0.0%         0.0%         0.0
+haskell      openai/o1-mini-2024-09-12                           72        55.1%        53.7%        35.9%         1.5
+haskell      qwen/qvq-72b-preview                                 0         0.0%         0.0%         0.0%         0.0
+haskell      qwen/qwen-2.5-7b-instruct                            0         0.0%         0.0%         0.0%         0.0
+haskell      qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+haskell      qwen/qwq-32b-preview                                 0         0.0%         0.0%         0.0%         0.0
+haskell      x-ai/grok-2-1212                                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+julia        anthropic/claude-3.5-sonnet                         26        99.0%        99.0%        30.8%         4.0
+julia        deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+julia        deepseek/deepseek-r1                                24       100.0%       100.0%        68.8%         1.6
+julia        deepseek/deepseek-r1-distill-llama-70b              23       100.0%       100.0%        32.6%         2.0
+julia        gemini-2.0-flash-exp                                 0         0.0%         0.0%         0.0%         0.0
+julia        gemini-2.0-flash-thinking-exp-01-21                  0         0.0%         0.0%         0.0%         0.0
+julia        gemini-exp-1206                                     21       100.0%       100.0%        52.4%         1.0
+julia        openai/gpt-4o-2024-11-20                            26       100.0%       100.0%        39.4%         4.0
+julia        openai/o1-mini-2024-09-12                           26       100.0%       100.0%        32.7%         2.2
+
+------------------------------------------------------------------------------------------------------------------------
+
+ocaml        agent_deepseek/deepseek-chat                         0         0.0%         0.0%         0.0%         0.0
+ocaml        agent_openai/gpt-4o-mini                             0         0.0%         0.0%         0.0%         0.0
+ocaml        agent_qwen/qwen-2.5-coder-32b-instruct               0         0.0%         0.0%         0.0%         0.0
+ocaml        anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+ocaml        anthropic/claude-3.5-sonnet                         74        59.1%        49.7%        28.3%         1.8
+ocaml        deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+ocaml        deepseek/deepseek-r1                                72        65.3%        65.3%        41.7%         1.2
+ocaml        deepseek/deepseek-r1-distill-llama-70b              62        17.3%        17.3%         5.1%         2.1
+ocaml        google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+ocaml        google/gemini-2.0-flash-thinking-exp:free            0         0.0%         0.0%         0.0%         0.0
+ocaml        google/gemini-flash-1.5                              0         0.0%         0.0%         0.0%         0.0
+ocaml        google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+ocaml        google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+ocaml        google/gemma-2-9b-it:free                            0         0.0%         0.0%         0.0%         0.0
+ocaml        meta-llama/llama-3.1-405b-instruct                   0         0.0%         0.0%         0.0%         0.0
+ocaml        meta-llama/llama-3.1-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+ocaml        meta-llama/llama-3.1-8b-instruct                     0         0.0%         0.0%         0.0%         0.0
+ocaml        meta-llama/llama-3.1-8b-instruct:free                0         0.0%         0.0%         0.0%         0.0
+ocaml        meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+ocaml        microsoft/phi-4                                      0         0.0%         0.0%         0.0%         0.0
+ocaml        minimax/minimax-01                                   0         0.0%         0.0%         0.0%         0.0
+ocaml        mistralai/codestral-2501                             0         0.0%         0.0%         0.0%         0.0
+ocaml        mistralai/codestral-mamba                            0         0.0%         0.0%         0.0%         0.0
+ocaml        openai/gpt-4o-2024-11-20                            74        55.2%        49.8%        23.5%         2.3
+ocaml        openai/gpt-4o-mini                                   0         0.0%         0.0%         0.0%         0.0
+ocaml        openai/o1-mini-2024-09-12                           73        59.0%        56.3%        36.9%         1.5
+ocaml        qwen/qvq-72b-preview                                 0         0.0%         0.0%         0.0%         0.0
+ocaml        qwen/qwen-2.5-7b-instruct                            0         0.0%         0.0%         0.0%         0.0
+ocaml        qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+ocaml        qwen/qwq-32b-preview                                 0         0.0%         0.0%         0.0%         0.0
+ocaml        x-ai/grok-2-1212                                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+python       agent_deepseek/deepseek-chat                         0         0.0%         0.0%         0.0%         0.0
+python       agent_openai/gpt-4o-mini                             0         0.0%         0.0%         0.0%         0.0
+python       agent_qwen/qwen-2.5-coder-32b-instruct               0         0.0%         0.0%         0.0%         0.0
+python       anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+python       anthropic/claude-3.5-sonnet                         73        92.0%        84.0%        59.5%         2.5
+python       deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+python       deepseek/deepseek-r1                                74       100.0%       100.0%        78.4%         1.7
+python       deepseek/deepseek-r1-distill-llama-70b              33       100.0%       100.0%        80.3%         1.2
+python       gemini-1.5-pro                                       0         0.0%         0.0%         0.0%         0.0
+python       gemini-2.0-flash-exp                                 0         0.0%         0.0%         0.0%         0.0
+python       gemini-2.0-flash-thinking-exp-01-21                  0         0.0%         0.0%         0.0%         0.0
+python       gemini-exp-1206                                     23       100.0%       100.0%        69.6%         1.0
+python       google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+python       google/gemini-2.0-flash-thinking-exp-1219:free        0         0.0%         0.0%         0.0%         0.0
+python       google/gemini-2.0-flash-thinking-exp:free            0         0.0%         0.0%         0.0%         0.0
+python       google/gemini-flash-1.5                              0         0.0%         0.0%         0.0%         0.0
+python       google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+python       google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+python       google/gemma-2-9b-it:free                            0         0.0%         0.0%         0.0%         0.0
+python       meta-llama/llama-3.1-405b-instruct                   0         0.0%         0.0%         0.0%         0.0
+python       meta-llama/llama-3.1-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+python       meta-llama/llama-3.1-8b-instruct                     0         0.0%         0.0%         0.0%         0.0
+python       meta-llama/llama-3.1-8b-instruct:free                0         0.0%         0.0%         0.0%         0.0
+python       meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+python       microsoft/phi-4                                      0         0.0%         0.0%         0.0%         0.0
+python       minimax/minimax-01                                   0         0.0%         0.0%         0.0%         0.0
+python       mistralai/codestral-2501                             0         0.0%         0.0%         0.0%         0.0
+python       mistralai/codestral-mamba                            0         0.0%         0.0%         0.0%         0.0
+python       openai/gpt-4o-2024-11-20                            73        99.0%        98.6%        24.3%         4.2
+python       openai/gpt-4o-mini                                   0         0.0%         0.0%         0.0%         0.0
+python       openai/o1-mini-2024-09-12                           74        98.1%        97.3%        76.0%         2.5
+python       openai/o1-preview                                    0         0.0%         0.0%         0.0%         0.0
+python       qwen/qvq-72b-preview                                 0         0.0%         0.0%         0.0%         0.0
+python       qwen/qwen-2.5-7b-instruct                            0         0.0%         0.0%         0.0%         0.0
+python       qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+python       qwen/qwq-32b-preview                                 0         0.0%         0.0%         0.0%         0.0
+python       x-ai/grok-2-1212                                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+rust         agent_deepseek/deepseek-chat                         0         0.0%         0.0%         0.0%         0.0
+rust         agent_openai/gpt-4o-mini                             0         0.0%         0.0%         0.0%         0.0
+rust         agent_qwen/qwen-2.5-coder-32b-instruct               0         0.0%         0.0%         0.0%         0.0
+rust         anthropic/claude-3-5-haiku                           0         0.0%         0.0%         0.0%         0.0
+rust         anthropic/claude-3.5-sonnet                         74        77.2%        63.6%        48.6%         3.1
+rust         deepseek/deepseek-chat                               0         0.0%         0.0%         0.0%         0.0
+rust         deepseek/deepseek-r1                                72        64.1%        64.1%        48.1%         1.9
+rust         deepseek/deepseek-r1-distill-llama-70b              52        40.1%        40.1%        26.3%         2.1
+rust         gemini-1.5-pro                                       0         0.0%         0.0%         0.0%         0.0
+rust         gemini-2.0-flash-exp                                 0         0.0%         0.0%         0.0%         0.0
+rust         gemini-2.0-flash-thinking-exp-01-21                  0         0.0%         0.0%         0.0%         0.0
+rust         gemini-exp-1206                                     21        92.9%        92.9%        71.4%         1.3
+rust         google/gemini-2.0-flash-exp:free                     0         0.0%         0.0%         0.0%         0.0
+rust         google/gemini-2.0-flash-thinking-exp:free            0         0.0%         0.0%         0.0%         0.0
+rust         google/gemini-exp-1206:free                          0         0.0%         0.0%         0.0%         0.0
+rust         google/gemini-flash-1.5                              0         0.0%         0.0%         0.0%         0.0
+rust         google/gemma-2-27b-it                                0         0.0%         0.0%         0.0%         0.0
+rust         google/gemma-2-9b-it                                 0         0.0%         0.0%         0.0%         0.0
+rust         google/gemma-2-9b-it:free                            0         0.0%         0.0%         0.0%         0.0
+rust         meta-llama/llama-3.1-405b-instruct                   0         0.0%         0.0%         0.0%         0.0
+rust         meta-llama/llama-3.1-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+rust         meta-llama/llama-3.1-8b-instruct                     0         0.0%         0.0%         0.0%         0.0
+rust         meta-llama/llama-3.1-8b-instruct:free                0         0.0%         0.0%         0.0%         0.0
+rust         meta-llama/llama-3.3-70b-instruct                    0         0.0%         0.0%         0.0%         0.0
+rust         microsoft/phi-4                                      0         0.0%         0.0%         0.0%         0.0
+rust         minimax/minimax-01                                   0         0.0%         0.0%         0.0%         0.0
+rust         mistralai/codestral-2501                             0         0.0%         0.0%         0.0%         0.0
+rust         mistralai/codestral-mamba                            0         0.0%         0.0%         0.0%         0.0
+rust         openai/gpt-4o-2024-11-20                            74        71.7%        56.8%        39.5%         3.2
+rust         openai/gpt-4o-mini                                   0         0.0%         0.0%         0.0%         0.0
+rust         openai/o1-mini-2024-09-12                           74        72.3%        59.7%        44.3%         2.4
+rust         openai/o1-preview                                    0         0.0%         0.0%         0.0%         0.0
+rust         qwen/qvq-72b-preview                                 0         0.0%         0.0%         0.0%         0.0
+rust         qwen/qwen-2.5-7b-instruct                            0         0.0%         0.0%         0.0%         0.0
+rust         qwen/qwen-2.5-coder-32b-instruct                     0         0.0%         0.0%         0.0%         0.0
+rust         qwen/qwq-32b-preview                                 0         0.0%         0.0%         0.0%         0.0
+rust         x-ai/grok-2-1212                                     0         0.0%         0.0%         0.0%         0.0
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Summary Statistics:
+----------------------------------------------------------------------------------------------------
+Metric                            Value
+----------------------------------------------------------------------------------------------------
+Total Languages:                     11
+Total Models:                        39
+Total Unique Problems:               74
+Overall Success Rate:             22.7%
+
+Summary Statistics:
+--------------------------------------------------------------------------------
+Metric                         Value     
+--------------------------------------------------------------------------------
+Total Languages:                    11
+Total Models:                       39
+Total Unique Problems:                74
+Overall Success Rate:                 22.7%
+-------
+
+Problem Statistics:
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+--------------------------------------------------------------------------------
+
+Language: ada
+
+1                            12          7       58.3% -        58.3%
+10                            9          0       11.1% -         0.0%
+11                           10          0       10.0% -         0.0%
+12                            7          1       28.6% -        14.3%
+13                            7          0        0.0% -         0.0%
+14                            9          0        0.0% -         0.0%
+15                           10          0       20.0% -         0.0%
+16                            9          0        0.0% -         0.0%
+17                            7          0       42.9% -         0.0%
+18                            9          0       22.2% -         0.0%
+19                            8          0       12.5% -         0.0%
+2                            11          3       27.3% -        27.3%
+20                           10          0        0.0% -         0.0%
+21                            6          0        0.0% -         0.0%
+22                           10          0        0.0% -         0.0%
+23                            7          1       28.6% -        14.3%
+24                            6          2       33.3% -        33.3%
+25                           11          4       36.4% -        36.4%
+26                           11          3       27.3% -        27.3%
+3                            10          0       60.0% -         0.0%
+4                             8          0       25.0% -         0.0%
+5                            12          2       16.7% -        16.7%
+6                            12          3       25.0% -        25.0%
+7                            11          0       36.4% -         0.0%
+8                            10          0       60.0% -         0.0%
+9                             7          0       28.6% -         0.0%
+aoc10a                        6          1       16.7% -        16.7%
+aoc10b                        5          0        0.0% -         0.0%
+aoc11a                        7          1       14.3% -        14.3%
+aoc11b                        6          0       16.7% -         0.0%
+aoc12a                        7          1       71.4% -        14.3%
+aoc12b                        7          0        0.0% -         0.0%
+aoc13a                        7          0        0.0% -         0.0%
+aoc13b                        6          0       33.3% -         0.0%
+aoc14a                        6          3       50.0% -        50.0%
+aoc14b                        6          0       16.7% -         0.0%
+aoc15a                        6          0       33.3% -         0.0%
+aoc15b                        6          0       33.3% -         0.0%
+aoc16a                        6          0        0.0% -         0.0%
+aoc16b                        8          0        0.0% -         0.0%
+aoc17a                        7          0        0.0% -         0.0%
+aoc17b                        7          0        0.0% -         0.0%
+aoc18a                        6          3       50.0% -        50.0%
+aoc18b                        6          0       33.3% -         0.0%
+aoc19a                        6          0        0.0% -         0.0%
+aoc19b                        8          0        0.0% -         0.0%
+aoc1a                         8          1       12.5% -        12.5%
+aoc1b                         6          1       50.0% -        16.7%
+aoc20a                        6          0       33.3% -         0.0%
+aoc20b                        5          0       20.0% -         0.0%
+aoc21a                        6          0       33.3% -         0.0%
+aoc21b                        8          0       37.5% -         0.0%
+aoc22a                        8          0        0.0% -         0.0%
+aoc22b                        7          0        0.0% -         0.0%
+aoc23a                        7          0        0.0% -         0.0%
+aoc23b                        5          0        0.0% -         0.0%
+aoc24a                        6          0       16.7% -         0.0%
+aoc25a                        6          0        0.0% -         0.0%
+aoc2a                         6          2       66.7% -        33.3%
+aoc2b                         7          1       14.3% -        14.3%
+aoc3a                         8          0       37.5% -         0.0%
+aoc3b                         6          1       50.0% -        16.7%
+aoc4a                         7          0       14.3% -         0.0%
+aoc4b                         6          1       16.7% -        16.7%
+aoc5a                         5          1       20.0% -        20.0%
+aoc5b                         5          0        0.0% -         0.0%
+aoc6a                         7          0        0.0% -         0.0%
+aoc6b                         8          0       12.5% -         0.0%
+aoc7a                         6          0        0.0% -         0.0%
+aoc7b                         6          0        0.0% -         0.0%
+aoc8a                         7          1       28.6% -        14.3%
+aoc8b                         7          1       14.3% -        14.3%
+aoc9a                         6          0       33.3% -         0.0%
+aoc9b                         7          0       28.6% -         0.0%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: cobol
+
+1                             2          1       50.0% -        50.0%
+13                            1          0        0.0% -         0.0%
+15                            1          0        0.0% -         0.0%
+16                            1          0        0.0% -         0.0%
+17                            1          0        0.0% -         0.0%
+18                            1          0        0.0% -         0.0%
+19                            1          0        0.0% -         0.0%
+20                            1          0        0.0% -         0.0%
+21                            1          0        0.0% -         0.0%
+25                            2          0      100.0% -         0.0%
+26                            1          0        0.0% -         0.0%
+5                             2          0       50.0% -         0.0%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: cpp
+
+1                             4          3       75.0% -        75.0%
+10                            4          2      100.0% -        50.0%
+11                            4          1      100.0% -        25.0%
+12                            5          5      100.0% -       100.0%
+13                            5          5      100.0% -       100.0%
+14                            6          5       83.3% -        83.3%
+15                            4          4      100.0% -       100.0%
+16                            7          4       57.1% -        57.1%
+17                            4          3       75.0% -        75.0%
+18                            6          5       83.3% -        83.3%
+19                            6          4       66.7% -        66.7%
+2                             5          5      100.0% -       100.0%
+20                            5          3       60.0% -        60.0%
+21                            4          2       75.0% -        50.0%
+22                            5          5      100.0% -       100.0%
+23                            2          2      100.0% -       100.0%
+25                            2          2      100.0% -       100.0%
+3                             5          0      100.0% -         0.0%
+4                             6          6      100.0% -       100.0%
+5                             5          5      100.0% -       100.0%
+6                             6          6      100.0% -       100.0%
+7                             6          5       83.3% -        83.3%
+8                             4          0      100.0% -         0.0%
+9                             6          5       83.3% -        83.3%
+aoc10a                        8          7      100.0% -        87.5%
+aoc10b                        9          5       66.7% -        55.6%
+aoc11a                       12          9      100.0% -        75.0%
+aoc11b                        9          4       88.9% -        44.4%
+aoc12a                       10         10      100.0% -       100.0%
+aoc12b                       10          0       90.0% -         0.0%
+aoc13a                        6          1       83.3% -        16.7%
+aoc13b                        8          3       50.0% -        37.5%
+aoc14a                        8          6      100.0% -        75.0%
+aoc14b                        7          1       71.4% -        14.3%
+aoc15a                        7          0      100.0% -         0.0%
+aoc15b                        6          0      100.0% -         0.0%
+aoc16a                        9          9      100.0% -       100.0%
+aoc16b                        8          3      100.0% -        37.5%
+aoc17a                        7          4      100.0% -        57.1%
+aoc17b                        7          0       71.4% -         0.0%
+aoc18a                        9          9      100.0% -       100.0%
+aoc18b                        9          4       66.7% -        44.4%
+aoc19a                        7          3       71.4% -        42.9%
+aoc19b                        7          6      100.0% -        85.7%
+aoc1a                        11         11      100.0% -       100.0%
+aoc1b                        12         11       91.7% -        91.7%
+aoc20a                        9          0       11.1% -         0.0%
+aoc20b                        7          1       42.9% -        14.3%
+aoc21a                        8          0      100.0% -         0.0%
+aoc21b                        7          0       71.4% -         0.0%
+aoc22a                        8          6      100.0% -        75.0%
+aoc22b                        6          1       33.3% -        16.7%
+aoc23a                        7          7      100.0% -       100.0%
+aoc23b                        6          1       50.0% -        16.7%
+aoc24a                        6          3       83.3% -        50.0%
+aoc25a                        7          0      100.0% -         0.0%
+aoc2a                        12         10      100.0% -        83.3%
+aoc2b                        10          8      100.0% -        80.0%
+aoc3a                        11          9      100.0% -        81.8%
+aoc3b                        10          3       40.0% -        30.0%
+aoc4a                        11          9      100.0% -        81.8%
+aoc4b                        10          3      100.0% -        30.0%
+aoc5a                        10          9       90.0% -        90.0%
+aoc5b                         9          6      100.0% -        66.7%
+aoc6a                         9          8       88.9% -        88.9%
+aoc6b                        10          0        0.0% -         0.0%
+aoc7a                        10          6       90.0% -        60.0%
+aoc7b                        10          6      100.0% -        60.0%
+aoc8a                        10          3      100.0% -        30.0%
+aoc8b                         9          6      100.0% -        66.7%
+aoc9a                         9          3      100.0% -        33.3%
+aoc9b                         9          2       88.9% -        22.2%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: d
+
+1                            14          2       21.4% -        14.3%
+10                           13          4       30.8% -        30.8%
+11                           14          0        0.0% -         0.0%
+12                           14          4       28.6% -        28.6%
+13                           12          4       33.3% -        33.3%
+14                           13          4       30.8% -        30.8%
+15                           10          3       40.0% -        30.0%
+16                           11          2       18.2% -        18.2%
+17                           11          1        9.1% -         9.1%
+18                           11          3       27.3% -        27.3%
+19                           11          3       36.4% -        27.3%
+2                            14          6       42.9% -        42.9%
+20                           14          3       21.4% -        21.4%
+21                           10          2       30.0% -        20.0%
+22                           12          3       25.0% -        25.0%
+23                           14          5       35.7% -        35.7%
+24                           14          4       28.6% -        28.6%
+25                           13          8       61.5% -        61.5%
+26                           14          6       42.9% -        42.9%
+3                            14          0        0.0% -         0.0%
+4                            13          3       46.2% -        23.1%
+5                            14          3       50.0% -        21.4%
+6                            13          4       38.5% -        30.8%
+7                            13          0       30.8% -         0.0%
+8                            14          0       28.6% -         0.0%
+9                            14          4       28.6% -        28.6%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: fortran
+
+1                             1          1      100.0% -       100.0%
+10                            3          1       66.7% -        33.3%
+11                            3          0       33.3% -         0.0%
+12                            5          0       60.0% -         0.0%
+13                            3          1       33.3% -        33.3%
+14                            3          0       66.7% -         0.0%
+15                            4          1       75.0% -        25.0%
+16                            5          2       60.0% -        40.0%
+17                            3          1       33.3% -        33.3%
+18                            4          2       75.0% -        50.0%
+19                            3          0        0.0% -         0.0%
+20                            3          0       33.3% -         0.0%
+21                            2          0        0.0% -         0.0%
+22                            2          0        0.0% -         0.0%
+23                            4          0       50.0% -         0.0%
+26                            4          1       25.0% -        25.0%
+3                             4          2       50.0% -        50.0%
+4                             4          3       75.0% -        75.0%
+5                             6          5       83.3% -        83.3%
+6                             5          3      100.0% -        60.0%
+7                             5          1       20.0% -        20.0%
+8                             5          3       60.0% -        60.0%
+9                             1          0        0.0% -         0.0%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: go
+
+1                             6          6      100.0% -       100.0%
+10                            4          3      100.0% -        75.0%
+11                            4          0      100.0% -         0.0%
+12                            4          2      100.0% -        50.0%
+13                            6          6      100.0% -       100.0%
+14                            5          3      100.0% -        60.0%
+15                            5          5      100.0% -       100.0%
+16                            6          5      100.0% -        83.3%
+17                            5          2      100.0% -        40.0%
+18                            5          3      100.0% -        60.0%
+19                            4          3      100.0% -        75.0%
+2                             6          6      100.0% -       100.0%
+20                            5          3      100.0% -        60.0%
+21                            5          2      100.0% -        40.0%
+22                            5          3      100.0% -        60.0%
+23                            2          2      100.0% -       100.0%
+25                            2          2      100.0% -       100.0%
+26                            1          1      100.0% -       100.0%
+3                             5          1      100.0% -        20.0%
+4                             6          4      100.0% -        66.7%
+5                             5          3      100.0% -        60.0%
+6                             5          5      100.0% -       100.0%
+7                             6          6      100.0% -       100.0%
+8                             4          1      100.0% -        25.0%
+9                             5          3      100.0% -        60.0%
+aoc10a                        6          2      100.0% -        33.3%
+aoc10b                        6          4      100.0% -        66.7%
+aoc11a                        5          5      100.0% -       100.0%
+aoc11b                        5          2      100.0% -        40.0%
+aoc12a                        7          6      100.0% -        85.7%
+aoc12b                        6          0      100.0% -         0.0%
+aoc13a                        5          2      100.0% -        40.0%
+aoc13b                        5          1      100.0% -        20.0%
+aoc14a                        6          4      100.0% -        66.7%
+aoc14b                        5          0       80.0% -         0.0%
+aoc15a                        5          1      100.0% -        20.0%
+aoc15b                        5          0      100.0% -         0.0%
+aoc16a                        5          3       80.0% -        60.0%
+aoc16b                        4          1      100.0% -        25.0%
+aoc17a                        5          2      100.0% -        40.0%
+aoc17b                        5          0       40.0% -         0.0%
+aoc18a                        6          6      100.0% -       100.0%
+aoc18b                        6          2      100.0% -        33.3%
+aoc19a                        6          5       83.3% -        83.3%
+aoc19b                        6          5      100.0% -        83.3%
+aoc1a                         6          5      100.0% -        83.3%
+aoc1b                         6          6      100.0% -       100.0%
+aoc20a                        5          2       80.0% -        40.0%
+aoc20b                        4          1       75.0% -        25.0%
+aoc21a                        5          0      100.0% -         0.0%
+aoc21b                        5          0      100.0% -         0.0%
+aoc22a                        5          5      100.0% -       100.0%
+aoc22b                        5          1       60.0% -        20.0%
+aoc23a                        6          5      100.0% -        83.3%
+aoc23b                        5          2       80.0% -        40.0%
+aoc24a                        5          3      100.0% -        60.0%
+aoc25a                        6          1      100.0% -        16.7%
+aoc2a                         5          3      100.0% -        60.0%
+aoc2b                         7          2      100.0% -        28.6%
+aoc3a                         5          3      100.0% -        60.0%
+aoc3b                         5          3      100.0% -        60.0%
+aoc4a                         6          4      100.0% -        66.7%
+aoc4b                         5          3      100.0% -        60.0%
+aoc5a                         5          5      100.0% -       100.0%
+aoc5b                         6          3      100.0% -        50.0%
+aoc6a                         6          1       50.0% -        16.7%
+aoc6b                         6          0       33.3% -         0.0%
+aoc7a                         6          6      100.0% -       100.0%
+aoc7b                         5          5      100.0% -       100.0%
+aoc8a                         5          2      100.0% -        40.0%
+aoc8b                         5          2      100.0% -        40.0%
+aoc9a                         5          1      100.0% -        20.0%
+aoc9b                         5          1      100.0% -        20.0%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: haskell
+
+1                             7          7      100.0% -       100.0%
+10                            5          0       20.0% -         0.0%
+11                            6          2       66.7% -        33.3%
+12                            6          5       83.3% -        83.3%
+13                            7          1       14.3% -        14.3%
+14                            7          1       57.1% -        14.3%
+15                            5          1       40.0% -        20.0%
+16                            4          0       50.0% -         0.0%
+17                            6          0       33.3% -         0.0%
+18                            4          3       75.0% -        75.0%
+19                            6          2       50.0% -        33.3%
+2                             7          6       85.7% -        85.7%
+20                            6          3       66.7% -        50.0%
+21                            7          2       42.9% -        28.6%
+22                            4          0       75.0% -         0.0%
+23                            3          2       66.7% -        66.7%
+24                            3          0        0.0% -         0.0%
+25                            2          2      100.0% -       100.0%
+26                            4          3       75.0% -        75.0%
+3                             7          0       71.4% -         0.0%
+4                             7          2       71.4% -        28.6%
+5                             6          5       83.3% -        83.3%
+6                             5          4       80.0% -        80.0%
+7                             6          5       83.3% -        83.3%
+8                             6          0       66.7% -         0.0%
+9                             5          0       40.0% -         0.0%
+aoc10a                       10          5       60.0% -        50.0%
+aoc10b                       13          9       76.9% -        69.2%
+aoc11a                       11          7       63.6% -        63.6%
+aoc11b                       13          2       15.4% -        15.4%
+aoc12a                       12          4       41.7% -        33.3%
+aoc12b                       13          0       15.4% -         0.0%
+aoc13a                        7          0       42.9% -         0.0%
+aoc13b                        6          0       50.0% -         0.0%
+aoc14a                        8          3       37.5% -        37.5%
+aoc14b                        9          0       33.3% -         0.0%
+aoc15a                       10          1       70.0% -        10.0%
+aoc15b                        6          0       16.7% -         0.0%
+aoc16a                       11          1        9.1% -         9.1%
+aoc16b                       11          0       36.4% -         0.0%
+aoc17a                        6          0       16.7% -         0.0%
+aoc17b                        6          0       16.7% -         0.0%
+aoc18a                        9          3       33.3% -        33.3%
+aoc18b                        7          2       28.6% -        28.6%
+aoc19a                        8          0       25.0% -         0.0%
+aoc19b                        7          2       28.6% -        28.6%
+aoc1a                        13          9       84.6% -        69.2%
+aoc1b                        13         10       76.9% -        76.9%
+aoc20a                        7          0       14.3% -         0.0%
+aoc20b                        9          0       11.1% -         0.0%
+aoc21a                        9          0       55.6% -         0.0%
+aoc21b                        7          0       57.1% -         0.0%
+aoc22a                        8          5       62.5% -        62.5%
+aoc22b                        8          0       12.5% -         0.0%
+aoc23a                        8          4       50.0% -        50.0%
+aoc23b                        8          1       12.5% -        12.5%
+aoc24a                        9          0       22.2% -         0.0%
+aoc25a                        8          0       87.5% -         0.0%
+aoc2a                        13          9       69.2% -        69.2%
+aoc2b                        12          9       75.0% -        75.0%
+aoc3a                        12          3       33.3% -        25.0%
+aoc3b                        13          4       69.2% -        30.8%
+aoc4a                        11          4       63.6% -        36.4%
+aoc4b                        11          3       72.7% -        27.3%
+aoc5a                        13          7       53.8% -        53.8%
+aoc5b                        10          1       10.0% -        10.0%
+aoc6a                        10          3       40.0% -        30.0%
+aoc6b                        11          0       18.2% -         0.0%
+aoc7a                        11          4       54.5% -        36.4%
+aoc7b                         9          2       22.2% -        22.2%
+aoc8a                        11          4       72.7% -        36.4%
+aoc8b                         9          2       66.7% -        22.2%
+aoc9a                         9          0       44.4% -         0.0%
+aoc9b                        13          0        7.7% -         0.0%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: julia
+
+1                            14         14      100.0% -       100.0%
+10                           15          2      100.0% -        13.3%
+11                           14          1      100.0% -         7.1%
+12                           14          6      100.0% -        42.9%
+13                           15          5      100.0% -        33.3%
+14                           13          3      100.0% -        23.1%
+15                           15          3      100.0% -        20.0%
+16                           12          1      100.0% -         8.3%
+17                           12          4      100.0% -        33.3%
+18                           12          6      100.0% -        50.0%
+19                           16          3      100.0% -        18.8%
+2                            14         13      100.0% -        92.9%
+20                           16          2      100.0% -        12.5%
+21                           15          1      100.0% -         6.7%
+22                           12          0      100.0% -         0.0%
+23                           14         12      100.0% -        85.7%
+24                           13         10      100.0% -        76.9%
+25                           14         13      100.0% -        92.9%
+26                           16         11       93.8% -        68.8%
+3                            16          2      100.0% -        12.5%
+4                            15          6      100.0% -        40.0%
+5                            15          6      100.0% -        40.0%
+6                            15          9      100.0% -        60.0%
+7                            15          4      100.0% -        26.7%
+8                            14          2      100.0% -        14.3%
+9                            14          4      100.0% -        28.6%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: ocaml
+
+1                            16         12       75.0% -        75.0%
+10                           11          4       45.5% -        36.4%
+11                           15          1       13.3% -         6.7%
+12                           15          6       60.0% -        40.0%
+13                           13          9       69.2% -        69.2%
+14                           16          6       37.5% -        37.5%
+15                           12         10       83.3% -        83.3%
+16                            9          2       22.2% -        22.2%
+17                            9          0       22.2% -         0.0%
+18                           11          0       36.4% -         0.0%
+19                           11          5       63.6% -        45.5%
+2                            15          5       93.3% -        33.3%
+20                           12          0       16.7% -         0.0%
+21                           13          1        7.7% -         7.7%
+22                           10          1       20.0% -        10.0%
+23                           11          5       90.9% -        45.5%
+24                            9          5       55.6% -        55.6%
+25                           13         12       92.3% -        92.3%
+26                            8          7       87.5% -        87.5%
+3                            18          0       66.7% -         0.0%
+4                            15          1       93.3% -         6.7%
+5                            15          2       73.3% -        13.3%
+6                            14          4       78.6% -        28.6%
+7                            14          3       85.7% -        21.4%
+8                            15          0       80.0% -         0.0%
+9                            15          8       60.0% -        53.3%
+aoc10a                        7          3       71.4% -        42.9%
+aoc10b                        7          2       57.1% -        28.6%
+aoc11a                        7          2       71.4% -        28.6%
+aoc11b                        7          1       57.1% -        14.3%
+aoc12a                        5          3      100.0% -        60.0%
+aoc12b                        6          0       33.3% -         0.0%
+aoc13a                        5          1       20.0% -        20.0%
+aoc13b                        7          0       14.3% -         0.0%
+aoc14a                        7          3       57.1% -        42.9%
+aoc14b                        7          0       42.9% -         0.0%
+aoc15a                        5          0       20.0% -         0.0%
+aoc15b                        7          0       14.3% -         0.0%
+aoc16a                        7          1       42.9% -        14.3%
+aoc16b                        5          1      100.0% -        20.0%
+aoc17a                        5          0       40.0% -         0.0%
+aoc17b                        5          0       20.0% -         0.0%
+aoc18a                        7          2       28.6% -        28.6%
+aoc18b                        7          2       28.6% -        28.6%
+aoc19a                        8          0        0.0% -         0.0%
+aoc19b                        6          3       50.0% -        50.0%
+aoc1a                         7          3      100.0% -        42.9%
+aoc1b                         7          1       71.4% -        14.3%
+aoc20a                        6          0        0.0% -         0.0%
+aoc20b                        6          1       16.7% -        16.7%
+aoc21a                        7          1       42.9% -        14.3%
+aoc21b                        5          0       60.0% -         0.0%
+aoc22a                        7          5       71.4% -        71.4%
+aoc22b                        6          1       33.3% -        16.7%
+aoc23a                        7          1       42.9% -        14.3%
+aoc23b                        8          2       37.5% -        25.0%
+aoc24a                        6          0       16.7% -         0.0%
+aoc25a                        7          0       57.1% -         0.0%
+aoc2a                         6          4       83.3% -        66.7%
+aoc2b                         7          3       57.1% -        42.9%
+aoc3a                         5          0        0.0% -         0.0%
+aoc3b                         5          2       40.0% -        40.0%
+aoc4a                         5          2       80.0% -        40.0%
+aoc4b                         7          1       42.9% -        14.3%
+aoc5a                         5          2       60.0% -        40.0%
+aoc5b                         6          1       33.3% -        16.7%
+aoc6a                         5          0       40.0% -         0.0%
+aoc6b                         6          0        0.0% -         0.0%
+aoc7a                         6          4       66.7% -        66.7%
+aoc7b                         6          2       50.0% -        33.3%
+aoc8a                         5          1       40.0% -        20.0%
+aoc8b                         4          2      100.0% -        50.0%
+aoc9a                         6          1       50.0% -        16.7%
+aoc9b                         7          0       14.3% -         0.0%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: python
+
+1                             7          7      100.0% -       100.0%
+10                           11          9      100.0% -        81.8%
+11                            7          2      100.0% -        28.6%
+12                            7          5      100.0% -        71.4%
+13                            8          8      100.0% -       100.0%
+14                            8          7      100.0% -        87.5%
+15                            8          7      100.0% -        87.5%
+16                            9          9      100.0% -       100.0%
+17                            9          6      100.0% -        66.7%
+18                            8          7      100.0% -        87.5%
+19                            9          7      100.0% -        77.8%
+2                             9          9      100.0% -       100.0%
+20                           10          8      100.0% -        80.0%
+21                            7          3      100.0% -        42.9%
+22                            9          5      100.0% -        55.6%
+23                            6          5      100.0% -        83.3%
+24                            4          4      100.0% -       100.0%
+25                            5          5      100.0% -       100.0%
+26                            5          5      100.0% -       100.0%
+3                            11          8      100.0% -        72.7%
+4                             8          4      100.0% -        50.0%
+5                            10          6      100.0% -        60.0%
+6                            10         10      100.0% -       100.0%
+7                             9          8      100.0% -        88.9%
+8                            10          5      100.0% -        50.0%
+9                             9          8      100.0% -        88.9%
+aoc10a                       16          9      100.0% -        56.2%
+aoc10b                       15          9      100.0% -        60.0%
+aoc11a                       17         10      100.0% -        58.8%
+aoc11b                       16          5      100.0% -        31.2%
+aoc12a                       18         11      100.0% -        61.1%
+aoc12b                       13          1      100.0% -         7.7%
+aoc13a                        9          3      100.0% -        33.3%
+aoc13b                       10          2      100.0% -        20.0%
+aoc14a                       11          6      100.0% -        54.5%
+aoc14b                       13          0      100.0% -         0.0%
+aoc15a                        9          1      100.0% -        11.1%
+aoc15b                       10          0      100.0% -         0.0%
+aoc16a                       15         10      100.0% -        66.7%
+aoc16b                       14          5      100.0% -        35.7%
+aoc17a                        9          2      100.0% -        22.2%
+aoc17b                       13          0       92.3% -         0.0%
+aoc18a                       14          7      100.0% -        50.0%
+aoc18b                       12          8      100.0% -        66.7%
+aoc19a                       10          5       90.0% -        50.0%
+aoc19b                       11          5      100.0% -        45.5%
+aoc1a                        19         13      100.0% -        68.4%
+aoc1b                        16         11      100.0% -        68.8%
+aoc20a                        9          2       77.8% -        22.2%
+aoc20b                       10          1       90.0% -        10.0%
+aoc21a                       12          0      100.0% -         0.0%
+aoc21b                       10          0      100.0% -         0.0%
+aoc22a                       12          7      100.0% -        58.3%
+aoc22b                        9          4       77.8% -        44.4%
+aoc23a                       12          8      100.0% -        66.7%
+aoc23b                       11          4       63.6% -        36.4%
+aoc24a                        9          4      100.0% -        44.4%
+aoc25a                        9          2      100.0% -        22.2%
+aoc2a                        19         15      100.0% -        78.9%
+aoc2b                        16         11      100.0% -        68.8%
+aoc3a                        17         10      100.0% -        58.8%
+aoc3b                        18          8      100.0% -        44.4%
+aoc4a                        15          8      100.0% -        53.3%
+aoc4b                        17          4      100.0% -        23.5%
+aoc5a                        14          8      100.0% -        57.1%
+aoc5b                        14          5      100.0% -        35.7%
+aoc6a                        17          7       82.4% -        41.2%
+aoc6b                        13          3       84.6% -        23.1%
+aoc7a                        15          8      100.0% -        53.3%
+aoc7b                        18         10      100.0% -        55.6%
+aoc8a                        17          5      100.0% -        29.4%
+aoc8b                        14          5      100.0% -        35.7%
+aoc9a                        13          2       84.6% -        15.4%
+aoc9b                        14          2       71.4% -        14.3%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+
+Language: rust
+
+1                            13         12       92.3% -        92.3%
+10                           17          4       23.5% -        23.5%
+11                           16          0        0.0% -         0.0%
+12                           15         11       73.3% -        73.3%
+13                           17          8       47.1% -        47.1%
+14                           17         10       58.8% -        58.8%
+15                           16         14       87.5% -        87.5%
+16                           12         10       83.3% -        83.3%
+17                           14         10       85.7% -        71.4%
+18                           16         13       87.5% -        81.2%
+19                           15          1       20.0% -         6.7%
+2                            13         11       84.6% -        84.6%
+20                           16          0       12.5% -         0.0%
+21                           12          2       58.3% -        16.7%
+22                           13          6       76.9% -        46.2%
+23                           11          8       81.8% -        72.7%
+24                           11          7       63.6% -        63.6%
+25                           13         13      100.0% -       100.0%
+26                           16         13       81.2% -        81.2%
+3                            17          5       88.2% -        29.4%
+4                            18         11       83.3% -        61.1%
+5                            17         10       76.5% -        58.8%
+6                            18         14       83.3% -        77.8%
+7                            18         14       77.8% -        77.8%
+8                            20          5       80.0% -        25.0%
+9                            14         11       78.6% -        78.6%
+aoc10a                       13         10       84.6% -        76.9%
+aoc10b                       14          8       78.6% -        57.1%
+aoc11a                       14         11       78.6% -        78.6%
+aoc11b                       13          2       38.5% -        15.4%
+aoc12a                       14          7       85.7% -        50.0%
+aoc12b                       13          0       61.5% -         0.0%
+aoc13a                        7          1       57.1% -        14.3%
+aoc13b                        8          0       12.5% -         0.0%
+aoc14a                       10          6       90.0% -        60.0%
+aoc14b                        8          1       75.0% -        12.5%
+aoc15a                        8          0       50.0% -         0.0%
+aoc15b                        7          0       71.4% -         0.0%
+aoc16a                       14          4       50.0% -        28.6%
+aoc16b                       10          1       50.0% -        10.0%
+aoc17a                        8          3       75.0% -        37.5%
+aoc17b                        9          0       55.6% -         0.0%
+aoc18a                       10          7       90.0% -        70.0%
+aoc18b                       10          3       40.0% -        30.0%
+aoc19a                        9          6       88.9% -        66.7%
+aoc19b                       10          4       80.0% -        40.0%
+aoc1a                        15         10       93.3% -        66.7%
+aoc1b                        15         11       86.7% -        73.3%
+aoc20a                        8          1       50.0% -        12.5%
+aoc20b                        8          0       25.0% -         0.0%
+aoc21a                        8          0       87.5% -         0.0%
+aoc21b                        7          0       71.4% -         0.0%
+aoc22a                       10          7      100.0% -        70.0%
+aoc22b                        8          0       25.0% -         0.0%
+aoc23a                        9          4       66.7% -        44.4%
+aoc23b                        8          5       62.5% -        62.5%
+aoc24a                        6          2      100.0% -        33.3%
+aoc25a                        7          1       85.7% -        14.3%
+aoc2a                        15          8       86.7% -        53.3%
+aoc2b                        15         13      100.0% -        86.7%
+aoc3a                        13          3       38.5% -        23.1%
+aoc3b                        13          3       46.2% -        23.1%
+aoc4a                        14         11       85.7% -        78.6%
+aoc4b                        13          4       84.6% -        30.8%
+aoc5a                        14          7       71.4% -        50.0%
+aoc5b                        11          3       90.9% -        27.3%
+aoc6a                        13          6       53.8% -        46.2%
+aoc6b                        12          0       16.7% -         0.0%
+aoc7a                        12          8      100.0% -        66.7%
+aoc7b                        13          7       76.9% -        53.8%
+aoc8a                        13          4       84.6% -        30.8%
+aoc8b                        11          5       90.9% -        45.5%
+aoc9a                        12          0       75.0% -         0.0%
+aoc9b                        13          1       76.9% -         7.7%
+--------------------------------------------------------------------------------
+Problem ID             Attempts    Correct  Compile %  Success %
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :1                            12          7       58.3% -        58.3%
+cobol     :1                             2          1       50.0% -        50.0%
+cpp       :1                             4          3       75.0% -        75.0%
+d         :1                            14          2       21.4% -        14.3%
+fortran   :1                             1          1      100.0% -       100.0%
+go        :1                             6          6      100.0% -       100.0%
+haskell   :1                             7          7      100.0% -       100.0%
+julia     :1                            14         14      100.0% -       100.0%
+ocaml     :1                            16         12       75.0% -        75.0%
+python    :1                             7          7      100.0% -       100.0%
+rust      :1                            13         12       92.3% -        92.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :10                            9          0       11.1% -         0.0%
+cpp       :10                            4          2      100.0% -        50.0%
+d         :10                           13          4       30.8% -        30.8%
+fortran   :10                            3          1       66.7% -        33.3%
+go        :10                            4          3      100.0% -        75.0%
+haskell   :10                            5          0       20.0% -         0.0%
+julia     :10                           15          2      100.0% -        13.3%
+ocaml     :10                           11          4       45.5% -        36.4%
+python    :10                           11          9      100.0% -        81.8%
+rust      :10                           17          4       23.5% -        23.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :11                           10          0       10.0% -         0.0%
+cpp       :11                            4          1      100.0% -        25.0%
+d         :11                           14          0        0.0% -         0.0%
+fortran   :11                            3          0       33.3% -         0.0%
+go        :11                            4          0      100.0% -         0.0%
+haskell   :11                            6          2       66.7% -        33.3%
+julia     :11                           14          1      100.0% -         7.1%
+ocaml     :11                           15          1       13.3% -         6.7%
+python    :11                            7          2      100.0% -        28.6%
+rust      :11                           16          0        0.0% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :12                            7          1       28.6% -        14.3%
+cpp       :12                            5          5      100.0% -       100.0%
+d         :12                           14          4       28.6% -        28.6%
+fortran   :12                            5          0       60.0% -         0.0%
+go        :12                            4          2      100.0% -        50.0%
+haskell   :12                            6          5       83.3% -        83.3%
+julia     :12                           14          6      100.0% -        42.9%
+ocaml     :12                           15          6       60.0% -        40.0%
+python    :12                            7          5      100.0% -        71.4%
+rust      :12                           15         11       73.3% -        73.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :13                            7          0        0.0% -         0.0%
+cobol     :13                            1          0        0.0% -         0.0%
+cpp       :13                            5          5      100.0% -       100.0%
+d         :13                           12          4       33.3% -        33.3%
+fortran   :13                            3          1       33.3% -        33.3%
+go        :13                            6          6      100.0% -       100.0%
+haskell   :13                            7          1       14.3% -        14.3%
+julia     :13                           15          5      100.0% -        33.3%
+ocaml     :13                           13          9       69.2% -        69.2%
+python    :13                            8          8      100.0% -       100.0%
+rust      :13                           17          8       47.1% -        47.1%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :14                            9          0        0.0% -         0.0%
+cpp       :14                            6          5       83.3% -        83.3%
+d         :14                           13          4       30.8% -        30.8%
+fortran   :14                            3          0       66.7% -         0.0%
+go        :14                            5          3      100.0% -        60.0%
+haskell   :14                            7          1       57.1% -        14.3%
+julia     :14                           13          3      100.0% -        23.1%
+ocaml     :14                           16          6       37.5% -        37.5%
+python    :14                            8          7      100.0% -        87.5%
+rust      :14                           17         10       58.8% -        58.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :15                           10          0       20.0% -         0.0%
+cobol     :15                            1          0        0.0% -         0.0%
+cpp       :15                            4          4      100.0% -       100.0%
+d         :15                           10          3       40.0% -        30.0%
+fortran   :15                            4          1       75.0% -        25.0%
+go        :15                            5          5      100.0% -       100.0%
+haskell   :15                            5          1       40.0% -        20.0%
+julia     :15                           15          3      100.0% -        20.0%
+ocaml     :15                           12         10       83.3% -        83.3%
+python    :15                            8          7      100.0% -        87.5%
+rust      :15                           16         14       87.5% -        87.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :16                            9          0        0.0% -         0.0%
+cobol     :16                            1          0        0.0% -         0.0%
+cpp       :16                            7          4       57.1% -        57.1%
+d         :16                           11          2       18.2% -        18.2%
+fortran   :16                            5          2       60.0% -        40.0%
+go        :16                            6          5      100.0% -        83.3%
+haskell   :16                            4          0       50.0% -         0.0%
+julia     :16                           12          1      100.0% -         8.3%
+ocaml     :16                            9          2       22.2% -        22.2%
+python    :16                            9          9      100.0% -       100.0%
+rust      :16                           12         10       83.3% -        83.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :17                            7          0       42.9% -         0.0%
+cobol     :17                            1          0        0.0% -         0.0%
+cpp       :17                            4          3       75.0% -        75.0%
+d         :17                           11          1        9.1% -         9.1%
+fortran   :17                            3          1       33.3% -        33.3%
+go        :17                            5          2      100.0% -        40.0%
+haskell   :17                            6          0       33.3% -         0.0%
+julia     :17                           12          4      100.0% -        33.3%
+ocaml     :17                            9          0       22.2% -         0.0%
+python    :17                            9          6      100.0% -        66.7%
+rust      :17                           14         10       85.7% -        71.4%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :18                            9          0       22.2% -         0.0%
+cobol     :18                            1          0        0.0% -         0.0%
+cpp       :18                            6          5       83.3% -        83.3%
+d         :18                           11          3       27.3% -        27.3%
+fortran   :18                            4          2       75.0% -        50.0%
+go        :18                            5          3      100.0% -        60.0%
+haskell   :18                            4          3       75.0% -        75.0%
+julia     :18                           12          6      100.0% -        50.0%
+ocaml     :18                           11          0       36.4% -         0.0%
+python    :18                            8          7      100.0% -        87.5%
+rust      :18                           16         13       87.5% -        81.2%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :19                            8          0       12.5% -         0.0%
+cobol     :19                            1          0        0.0% -         0.0%
+cpp       :19                            6          4       66.7% -        66.7%
+d         :19                           11          3       36.4% -        27.3%
+fortran   :19                            3          0        0.0% -         0.0%
+go        :19                            4          3      100.0% -        75.0%
+haskell   :19                            6          2       50.0% -        33.3%
+julia     :19                           16          3      100.0% -        18.8%
+ocaml     :19                           11          5       63.6% -        45.5%
+python    :19                            9          7      100.0% -        77.8%
+rust      :19                           15          1       20.0% -         6.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :2                            11          3       27.3% -        27.3%
+cpp       :2                             5          5      100.0% -       100.0%
+d         :2                            14          6       42.9% -        42.9%
+go        :2                             6          6      100.0% -       100.0%
+haskell   :2                             7          6       85.7% -        85.7%
+julia     :2                            14         13      100.0% -        92.9%
+ocaml     :2                            15          5       93.3% -        33.3%
+python    :2                             9          9      100.0% -       100.0%
+rust      :2                            13         11       84.6% -        84.6%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :20                           10          0        0.0% -         0.0%
+cobol     :20                            1          0        0.0% -         0.0%
+cpp       :20                            5          3       60.0% -        60.0%
+d         :20                           14          3       21.4% -        21.4%
+fortran   :20                            3          0       33.3% -         0.0%
+go        :20                            5          3      100.0% -        60.0%
+haskell   :20                            6          3       66.7% -        50.0%
+julia     :20                           16          2      100.0% -        12.5%
+ocaml     :20                           12          0       16.7% -         0.0%
+python    :20                           10          8      100.0% -        80.0%
+rust      :20                           16          0       12.5% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :21                            6          0        0.0% -         0.0%
+cobol     :21                            1          0        0.0% -         0.0%
+cpp       :21                            4          2       75.0% -        50.0%
+d         :21                           10          2       30.0% -        20.0%
+fortran   :21                            2          0        0.0% -         0.0%
+go        :21                            5          2      100.0% -        40.0%
+haskell   :21                            7          2       42.9% -        28.6%
+julia     :21                           15          1      100.0% -         6.7%
+ocaml     :21                           13          1        7.7% -         7.7%
+python    :21                            7          3      100.0% -        42.9%
+rust      :21                           12          2       58.3% -        16.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :22                           10          0        0.0% -         0.0%
+cpp       :22                            5          5      100.0% -       100.0%
+d         :22                           12          3       25.0% -        25.0%
+fortran   :22                            2          0        0.0% -         0.0%
+go        :22                            5          3      100.0% -        60.0%
+haskell   :22                            4          0       75.0% -         0.0%
+julia     :22                           12          0      100.0% -         0.0%
+ocaml     :22                           10          1       20.0% -        10.0%
+python    :22                            9          5      100.0% -        55.6%
+rust      :22                           13          6       76.9% -        46.2%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :23                            7          1       28.6% -        14.3%
+cpp       :23                            2          2      100.0% -       100.0%
+d         :23                           14          5       35.7% -        35.7%
+fortran   :23                            4          0       50.0% -         0.0%
+go        :23                            2          2      100.0% -       100.0%
+haskell   :23                            3          2       66.7% -        66.7%
+julia     :23                           14         12      100.0% -        85.7%
+ocaml     :23                           11          5       90.9% -        45.5%
+python    :23                            6          5      100.0% -        83.3%
+rust      :23                           11          8       81.8% -        72.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :24                            6          2       33.3% -        33.3%
+d         :24                           14          4       28.6% -        28.6%
+haskell   :24                            3          0        0.0% -         0.0%
+julia     :24                           13         10      100.0% -        76.9%
+ocaml     :24                            9          5       55.6% -        55.6%
+python    :24                            4          4      100.0% -       100.0%
+rust      :24                           11          7       63.6% -        63.6%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :25                           11          4       36.4% -        36.4%
+cobol     :25                            2          0      100.0% -         0.0%
+cpp       :25                            2          2      100.0% -       100.0%
+d         :25                           13          8       61.5% -        61.5%
+go        :25                            2          2      100.0% -       100.0%
+haskell   :25                            2          2      100.0% -       100.0%
+julia     :25                           14         13      100.0% -        92.9%
+ocaml     :25                           13         12       92.3% -        92.3%
+python    :25                            5          5      100.0% -       100.0%
+rust      :25                           13         13      100.0% -       100.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :26                           11          3       27.3% -        27.3%
+cobol     :26                            1          0        0.0% -         0.0%
+d         :26                           14          6       42.9% -        42.9%
+fortran   :26                            4          1       25.0% -        25.0%
+go        :26                            1          1      100.0% -       100.0%
+haskell   :26                            4          3       75.0% -        75.0%
+julia     :26                           16         11       93.8% -        68.8%
+ocaml     :26                            8          7       87.5% -        87.5%
+python    :26                            5          5      100.0% -       100.0%
+rust      :26                           16         13       81.2% -        81.2%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :3                            10          0       60.0% -         0.0%
+cpp       :3                             5          0      100.0% -         0.0%
+d         :3                            14          0        0.0% -         0.0%
+fortran   :3                             4          2       50.0% -        50.0%
+go        :3                             5          1      100.0% -        20.0%
+haskell   :3                             7          0       71.4% -         0.0%
+julia     :3                            16          2      100.0% -        12.5%
+ocaml     :3                            18          0       66.7% -         0.0%
+python    :3                            11          8      100.0% -        72.7%
+rust      :3                            17          5       88.2% -        29.4%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :4                             8          0       25.0% -         0.0%
+cpp       :4                             6          6      100.0% -       100.0%
+d         :4                            13          3       46.2% -        23.1%
+fortran   :4                             4          3       75.0% -        75.0%
+go        :4                             6          4      100.0% -        66.7%
+haskell   :4                             7          2       71.4% -        28.6%
+julia     :4                            15          6      100.0% -        40.0%
+ocaml     :4                            15          1       93.3% -         6.7%
+python    :4                             8          4      100.0% -        50.0%
+rust      :4                            18         11       83.3% -        61.1%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :5                            12          2       16.7% -        16.7%
+cobol     :5                             2          0       50.0% -         0.0%
+cpp       :5                             5          5      100.0% -       100.0%
+d         :5                            14          3       50.0% -        21.4%
+fortran   :5                             6          5       83.3% -        83.3%
+go        :5                             5          3      100.0% -        60.0%
+haskell   :5                             6          5       83.3% -        83.3%
+julia     :5                            15          6      100.0% -        40.0%
+ocaml     :5                            15          2       73.3% -        13.3%
+python    :5                            10          6      100.0% -        60.0%
+rust      :5                            17         10       76.5% -        58.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :6                            12          3       25.0% -        25.0%
+cpp       :6                             6          6      100.0% -       100.0%
+d         :6                            13          4       38.5% -        30.8%
+fortran   :6                             5          3      100.0% -        60.0%
+go        :6                             5          5      100.0% -       100.0%
+haskell   :6                             5          4       80.0% -        80.0%
+julia     :6                            15          9      100.0% -        60.0%
+ocaml     :6                            14          4       78.6% -        28.6%
+python    :6                            10         10      100.0% -       100.0%
+rust      :6                            18         14       83.3% -        77.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :7                            11          0       36.4% -         0.0%
+cpp       :7                             6          5       83.3% -        83.3%
+d         :7                            13          0       30.8% -         0.0%
+fortran   :7                             5          1       20.0% -        20.0%
+go        :7                             6          6      100.0% -       100.0%
+haskell   :7                             6          5       83.3% -        83.3%
+julia     :7                            15          4      100.0% -        26.7%
+ocaml     :7                            14          3       85.7% -        21.4%
+python    :7                             9          8      100.0% -        88.9%
+rust      :7                            18         14       77.8% -        77.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :8                            10          0       60.0% -         0.0%
+cpp       :8                             4          0      100.0% -         0.0%
+d         :8                            14          0       28.6% -         0.0%
+fortran   :8                             5          3       60.0% -        60.0%
+go        :8                             4          1      100.0% -        25.0%
+haskell   :8                             6          0       66.7% -         0.0%
+julia     :8                            14          2      100.0% -        14.3%
+ocaml     :8                            15          0       80.0% -         0.0%
+python    :8                            10          5      100.0% -        50.0%
+rust      :8                            20          5       80.0% -        25.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :9                             7          0       28.6% -         0.0%
+cpp       :9                             6          5       83.3% -        83.3%
+d         :9                            14          4       28.6% -        28.6%
+fortran   :9                             1          0        0.0% -         0.0%
+go        :9                             5          3      100.0% -        60.0%
+haskell   :9                             5          0       40.0% -         0.0%
+julia     :9                            14          4      100.0% -        28.6%
+ocaml     :9                            15          8       60.0% -        53.3%
+python    :9                             9          8      100.0% -        88.9%
+rust      :9                            14         11       78.6% -        78.6%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc10a                        6          1       16.7% -        16.7%
+cpp       :aoc10a                        8          7      100.0% -        87.5%
+go        :aoc10a                        6          2      100.0% -        33.3%
+haskell   :aoc10a                       10          5       60.0% -        50.0%
+ocaml     :aoc10a                        7          3       71.4% -        42.9%
+python    :aoc10a                       16          9      100.0% -        56.2%
+rust      :aoc10a                       13         10       84.6% -        76.9%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc10b                        5          0        0.0% -         0.0%
+cpp       :aoc10b                        9          5       66.7% -        55.6%
+go        :aoc10b                        6          4      100.0% -        66.7%
+haskell   :aoc10b                       13          9       76.9% -        69.2%
+ocaml     :aoc10b                        7          2       57.1% -        28.6%
+python    :aoc10b                       15          9      100.0% -        60.0%
+rust      :aoc10b                       14          8       78.6% -        57.1%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc11a                        7          1       14.3% -        14.3%
+cpp       :aoc11a                       12          9      100.0% -        75.0%
+go        :aoc11a                        5          5      100.0% -       100.0%
+haskell   :aoc11a                       11          7       63.6% -        63.6%
+ocaml     :aoc11a                        7          2       71.4% -        28.6%
+python    :aoc11a                       17         10      100.0% -        58.8%
+rust      :aoc11a                       14         11       78.6% -        78.6%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc11b                        6          0       16.7% -         0.0%
+cpp       :aoc11b                        9          4       88.9% -        44.4%
+go        :aoc11b                        5          2      100.0% -        40.0%
+haskell   :aoc11b                       13          2       15.4% -        15.4%
+ocaml     :aoc11b                        7          1       57.1% -        14.3%
+python    :aoc11b                       16          5      100.0% -        31.2%
+rust      :aoc11b                       13          2       38.5% -        15.4%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc12a                        7          1       71.4% -        14.3%
+cpp       :aoc12a                       10         10      100.0% -       100.0%
+go        :aoc12a                        7          6      100.0% -        85.7%
+haskell   :aoc12a                       12          4       41.7% -        33.3%
+ocaml     :aoc12a                        5          3      100.0% -        60.0%
+python    :aoc12a                       18         11      100.0% -        61.1%
+rust      :aoc12a                       14          7       85.7% -        50.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc12b                        7          0        0.0% -         0.0%
+cpp       :aoc12b                       10          0       90.0% -         0.0%
+go        :aoc12b                        6          0      100.0% -         0.0%
+haskell   :aoc12b                       13          0       15.4% -         0.0%
+ocaml     :aoc12b                        6          0       33.3% -         0.0%
+python    :aoc12b                       13          1      100.0% -         7.7%
+rust      :aoc12b                       13          0       61.5% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc13a                        7          0        0.0% -         0.0%
+cpp       :aoc13a                        6          1       83.3% -        16.7%
+go        :aoc13a                        5          2      100.0% -        40.0%
+haskell   :aoc13a                        7          0       42.9% -         0.0%
+ocaml     :aoc13a                        5          1       20.0% -        20.0%
+python    :aoc13a                        9          3      100.0% -        33.3%
+rust      :aoc13a                        7          1       57.1% -        14.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc13b                        6          0       33.3% -         0.0%
+cpp       :aoc13b                        8          3       50.0% -        37.5%
+go        :aoc13b                        5          1      100.0% -        20.0%
+haskell   :aoc13b                        6          0       50.0% -         0.0%
+ocaml     :aoc13b                        7          0       14.3% -         0.0%
+python    :aoc13b                       10          2      100.0% -        20.0%
+rust      :aoc13b                        8          0       12.5% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc14a                        6          3       50.0% -        50.0%
+cpp       :aoc14a                        8          6      100.0% -        75.0%
+go        :aoc14a                        6          4      100.0% -        66.7%
+haskell   :aoc14a                        8          3       37.5% -        37.5%
+ocaml     :aoc14a                        7          3       57.1% -        42.9%
+python    :aoc14a                       11          6      100.0% -        54.5%
+rust      :aoc14a                       10          6       90.0% -        60.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc14b                        6          0       16.7% -         0.0%
+cpp       :aoc14b                        7          1       71.4% -        14.3%
+go        :aoc14b                        5          0       80.0% -         0.0%
+haskell   :aoc14b                        9          0       33.3% -         0.0%
+ocaml     :aoc14b                        7          0       42.9% -         0.0%
+python    :aoc14b                       13          0      100.0% -         0.0%
+rust      :aoc14b                        8          1       75.0% -        12.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc15a                        6          0       33.3% -         0.0%
+cpp       :aoc15a                        7          0      100.0% -         0.0%
+go        :aoc15a                        5          1      100.0% -        20.0%
+haskell   :aoc15a                       10          1       70.0% -        10.0%
+ocaml     :aoc15a                        5          0       20.0% -         0.0%
+python    :aoc15a                        9          1      100.0% -        11.1%
+rust      :aoc15a                        8          0       50.0% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc15b                        6          0       33.3% -         0.0%
+cpp       :aoc15b                        6          0      100.0% -         0.0%
+go        :aoc15b                        5          0      100.0% -         0.0%
+haskell   :aoc15b                        6          0       16.7% -         0.0%
+ocaml     :aoc15b                        7          0       14.3% -         0.0%
+python    :aoc15b                       10          0      100.0% -         0.0%
+rust      :aoc15b                        7          0       71.4% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc16a                        6          0        0.0% -         0.0%
+cpp       :aoc16a                        9          9      100.0% -       100.0%
+go        :aoc16a                        5          3       80.0% -        60.0%
+haskell   :aoc16a                       11          1        9.1% -         9.1%
+ocaml     :aoc16a                        7          1       42.9% -        14.3%
+python    :aoc16a                       15         10      100.0% -        66.7%
+rust      :aoc16a                       14          4       50.0% -        28.6%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc16b                        8          0        0.0% -         0.0%
+cpp       :aoc16b                        8          3      100.0% -        37.5%
+go        :aoc16b                        4          1      100.0% -        25.0%
+haskell   :aoc16b                       11          0       36.4% -         0.0%
+ocaml     :aoc16b                        5          1      100.0% -        20.0%
+python    :aoc16b                       14          5      100.0% -        35.7%
+rust      :aoc16b                       10          1       50.0% -        10.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc17a                        7          0        0.0% -         0.0%
+cpp       :aoc17a                        7          4      100.0% -        57.1%
+go        :aoc17a                        5          2      100.0% -        40.0%
+haskell   :aoc17a                        6          0       16.7% -         0.0%
+ocaml     :aoc17a                        5          0       40.0% -         0.0%
+python    :aoc17a                        9          2      100.0% -        22.2%
+rust      :aoc17a                        8          3       75.0% -        37.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc17b                        7          0        0.0% -         0.0%
+cpp       :aoc17b                        7          0       71.4% -         0.0%
+go        :aoc17b                        5          0       40.0% -         0.0%
+haskell   :aoc17b                        6          0       16.7% -         0.0%
+ocaml     :aoc17b                        5          0       20.0% -         0.0%
+python    :aoc17b                       13          0       92.3% -         0.0%
+rust      :aoc17b                        9          0       55.6% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc18a                        6          3       50.0% -        50.0%
+cpp       :aoc18a                        9          9      100.0% -       100.0%
+go        :aoc18a                        6          6      100.0% -       100.0%
+haskell   :aoc18a                        9          3       33.3% -        33.3%
+ocaml     :aoc18a                        7          2       28.6% -        28.6%
+python    :aoc18a                       14          7      100.0% -        50.0%
+rust      :aoc18a                       10          7       90.0% -        70.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc18b                        6          0       33.3% -         0.0%
+cpp       :aoc18b                        9          4       66.7% -        44.4%
+go        :aoc18b                        6          2      100.0% -        33.3%
+haskell   :aoc18b                        7          2       28.6% -        28.6%
+ocaml     :aoc18b                        7          2       28.6% -        28.6%
+python    :aoc18b                       12          8      100.0% -        66.7%
+rust      :aoc18b                       10          3       40.0% -        30.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc19a                        6          0        0.0% -         0.0%
+cpp       :aoc19a                        7          3       71.4% -        42.9%
+go        :aoc19a                        6          5       83.3% -        83.3%
+haskell   :aoc19a                        8          0       25.0% -         0.0%
+ocaml     :aoc19a                        8          0        0.0% -         0.0%
+python    :aoc19a                       10          5       90.0% -        50.0%
+rust      :aoc19a                        9          6       88.9% -        66.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc19b                        8          0        0.0% -         0.0%
+cpp       :aoc19b                        7          6      100.0% -        85.7%
+go        :aoc19b                        6          5      100.0% -        83.3%
+haskell   :aoc19b                        7          2       28.6% -        28.6%
+ocaml     :aoc19b                        6          3       50.0% -        50.0%
+python    :aoc19b                       11          5      100.0% -        45.5%
+rust      :aoc19b                       10          4       80.0% -        40.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc1a                         8          1       12.5% -        12.5%
+cpp       :aoc1a                        11         11      100.0% -       100.0%
+go        :aoc1a                         6          5      100.0% -        83.3%
+haskell   :aoc1a                        13          9       84.6% -        69.2%
+ocaml     :aoc1a                         7          3      100.0% -        42.9%
+python    :aoc1a                        19         13      100.0% -        68.4%
+rust      :aoc1a                        15         10       93.3% -        66.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc1b                         6          1       50.0% -        16.7%
+cpp       :aoc1b                        12         11       91.7% -        91.7%
+go        :aoc1b                         6          6      100.0% -       100.0%
+haskell   :aoc1b                        13         10       76.9% -        76.9%
+ocaml     :aoc1b                         7          1       71.4% -        14.3%
+python    :aoc1b                        16         11      100.0% -        68.8%
+rust      :aoc1b                        15         11       86.7% -        73.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc20a                        6          0       33.3% -         0.0%
+cpp       :aoc20a                        9          0       11.1% -         0.0%
+go        :aoc20a                        5          2       80.0% -        40.0%
+haskell   :aoc20a                        7          0       14.3% -         0.0%
+ocaml     :aoc20a                        6          0        0.0% -         0.0%
+python    :aoc20a                        9          2       77.8% -        22.2%
+rust      :aoc20a                        8          1       50.0% -        12.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc20b                        5          0       20.0% -         0.0%
+cpp       :aoc20b                        7          1       42.9% -        14.3%
+go        :aoc20b                        4          1       75.0% -        25.0%
+haskell   :aoc20b                        9          0       11.1% -         0.0%
+ocaml     :aoc20b                        6          1       16.7% -        16.7%
+python    :aoc20b                       10          1       90.0% -        10.0%
+rust      :aoc20b                        8          0       25.0% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc21a                        6          0       33.3% -         0.0%
+cpp       :aoc21a                        8          0      100.0% -         0.0%
+go        :aoc21a                        5          0      100.0% -         0.0%
+haskell   :aoc21a                        9          0       55.6% -         0.0%
+ocaml     :aoc21a                        7          1       42.9% -        14.3%
+python    :aoc21a                       12          0      100.0% -         0.0%
+rust      :aoc21a                        8          0       87.5% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc21b                        8          0       37.5% -         0.0%
+cpp       :aoc21b                        7          0       71.4% -         0.0%
+go        :aoc21b                        5          0      100.0% -         0.0%
+haskell   :aoc21b                        7          0       57.1% -         0.0%
+ocaml     :aoc21b                        5          0       60.0% -         0.0%
+python    :aoc21b                       10          0      100.0% -         0.0%
+rust      :aoc21b                        7          0       71.4% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc22a                        8          0        0.0% -         0.0%
+cpp       :aoc22a                        8          6      100.0% -        75.0%
+go        :aoc22a                        5          5      100.0% -       100.0%
+haskell   :aoc22a                        8          5       62.5% -        62.5%
+ocaml     :aoc22a                        7          5       71.4% -        71.4%
+python    :aoc22a                       12          7      100.0% -        58.3%
+rust      :aoc22a                       10          7      100.0% -        70.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc22b                        7          0        0.0% -         0.0%
+cpp       :aoc22b                        6          1       33.3% -        16.7%
+go        :aoc22b                        5          1       60.0% -        20.0%
+haskell   :aoc22b                        8          0       12.5% -         0.0%
+ocaml     :aoc22b                        6          1       33.3% -        16.7%
+python    :aoc22b                        9          4       77.8% -        44.4%
+rust      :aoc22b                        8          0       25.0% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc23a                        7          0        0.0% -         0.0%
+cpp       :aoc23a                        7          7      100.0% -       100.0%
+go        :aoc23a                        6          5      100.0% -        83.3%
+haskell   :aoc23a                        8          4       50.0% -        50.0%
+ocaml     :aoc23a                        7          1       42.9% -        14.3%
+python    :aoc23a                       12          8      100.0% -        66.7%
+rust      :aoc23a                        9          4       66.7% -        44.4%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc23b                        5          0        0.0% -         0.0%
+cpp       :aoc23b                        6          1       50.0% -        16.7%
+go        :aoc23b                        5          2       80.0% -        40.0%
+haskell   :aoc23b                        8          1       12.5% -        12.5%
+ocaml     :aoc23b                        8          2       37.5% -        25.0%
+python    :aoc23b                       11          4       63.6% -        36.4%
+rust      :aoc23b                        8          5       62.5% -        62.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc24a                        6          0       16.7% -         0.0%
+cpp       :aoc24a                        6          3       83.3% -        50.0%
+go        :aoc24a                        5          3      100.0% -        60.0%
+haskell   :aoc24a                        9          0       22.2% -         0.0%
+ocaml     :aoc24a                        6          0       16.7% -         0.0%
+python    :aoc24a                        9          4      100.0% -        44.4%
+rust      :aoc24a                        6          2      100.0% -        33.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc25a                        6          0        0.0% -         0.0%
+cpp       :aoc25a                        7          0      100.0% -         0.0%
+go        :aoc25a                        6          1      100.0% -        16.7%
+haskell   :aoc25a                        8          0       87.5% -         0.0%
+ocaml     :aoc25a                        7          0       57.1% -         0.0%
+python    :aoc25a                        9          2      100.0% -        22.2%
+rust      :aoc25a                        7          1       85.7% -        14.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc2a                         6          2       66.7% -        33.3%
+cpp       :aoc2a                        12         10      100.0% -        83.3%
+go        :aoc2a                         5          3      100.0% -        60.0%
+haskell   :aoc2a                        13          9       69.2% -        69.2%
+ocaml     :aoc2a                         6          4       83.3% -        66.7%
+python    :aoc2a                        19         15      100.0% -        78.9%
+rust      :aoc2a                        15          8       86.7% -        53.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc2b                         7          1       14.3% -        14.3%
+cpp       :aoc2b                        10          8      100.0% -        80.0%
+go        :aoc2b                         7          2      100.0% -        28.6%
+haskell   :aoc2b                        12          9       75.0% -        75.0%
+ocaml     :aoc2b                         7          3       57.1% -        42.9%
+python    :aoc2b                        16         11      100.0% -        68.8%
+rust      :aoc2b                        15         13      100.0% -        86.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc3a                         8          0       37.5% -         0.0%
+cpp       :aoc3a                        11          9      100.0% -        81.8%
+go        :aoc3a                         5          3      100.0% -        60.0%
+haskell   :aoc3a                        12          3       33.3% -        25.0%
+ocaml     :aoc3a                         5          0        0.0% -         0.0%
+python    :aoc3a                        17         10      100.0% -        58.8%
+rust      :aoc3a                        13          3       38.5% -        23.1%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc3b                         6          1       50.0% -        16.7%
+cpp       :aoc3b                        10          3       40.0% -        30.0%
+go        :aoc3b                         5          3      100.0% -        60.0%
+haskell   :aoc3b                        13          4       69.2% -        30.8%
+ocaml     :aoc3b                         5          2       40.0% -        40.0%
+python    :aoc3b                        18          8      100.0% -        44.4%
+rust      :aoc3b                        13          3       46.2% -        23.1%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc4a                         7          0       14.3% -         0.0%
+cpp       :aoc4a                        11          9      100.0% -        81.8%
+go        :aoc4a                         6          4      100.0% -        66.7%
+haskell   :aoc4a                        11          4       63.6% -        36.4%
+ocaml     :aoc4a                         5          2       80.0% -        40.0%
+python    :aoc4a                        15          8      100.0% -        53.3%
+rust      :aoc4a                        14         11       85.7% -        78.6%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc4b                         6          1       16.7% -        16.7%
+cpp       :aoc4b                        10          3      100.0% -        30.0%
+go        :aoc4b                         5          3      100.0% -        60.0%
+haskell   :aoc4b                        11          3       72.7% -        27.3%
+ocaml     :aoc4b                         7          1       42.9% -        14.3%
+python    :aoc4b                        17          4      100.0% -        23.5%
+rust      :aoc4b                        13          4       84.6% -        30.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc5a                         5          1       20.0% -        20.0%
+cpp       :aoc5a                        10          9       90.0% -        90.0%
+go        :aoc5a                         5          5      100.0% -       100.0%
+haskell   :aoc5a                        13          7       53.8% -        53.8%
+ocaml     :aoc5a                         5          2       60.0% -        40.0%
+python    :aoc5a                        14          8      100.0% -        57.1%
+rust      :aoc5a                        14          7       71.4% -        50.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc5b                         5          0        0.0% -         0.0%
+cpp       :aoc5b                         9          6      100.0% -        66.7%
+go        :aoc5b                         6          3      100.0% -        50.0%
+haskell   :aoc5b                        10          1       10.0% -        10.0%
+ocaml     :aoc5b                         6          1       33.3% -        16.7%
+python    :aoc5b                        14          5      100.0% -        35.7%
+rust      :aoc5b                        11          3       90.9% -        27.3%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc6a                         7          0        0.0% -         0.0%
+cpp       :aoc6a                         9          8       88.9% -        88.9%
+go        :aoc6a                         6          1       50.0% -        16.7%
+haskell   :aoc6a                        10          3       40.0% -        30.0%
+ocaml     :aoc6a                         5          0       40.0% -         0.0%
+python    :aoc6a                        17          7       82.4% -        41.2%
+rust      :aoc6a                        13          6       53.8% -        46.2%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc6b                         8          0       12.5% -         0.0%
+cpp       :aoc6b                        10          0        0.0% -         0.0%
+go        :aoc6b                         6          0       33.3% -         0.0%
+haskell   :aoc6b                        11          0       18.2% -         0.0%
+ocaml     :aoc6b                         6          0        0.0% -         0.0%
+python    :aoc6b                        13          3       84.6% -        23.1%
+rust      :aoc6b                        12          0       16.7% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc7a                         6          0        0.0% -         0.0%
+cpp       :aoc7a                        10          6       90.0% -        60.0%
+go        :aoc7a                         6          6      100.0% -       100.0%
+haskell   :aoc7a                        11          4       54.5% -        36.4%
+ocaml     :aoc7a                         6          4       66.7% -        66.7%
+python    :aoc7a                        15          8      100.0% -        53.3%
+rust      :aoc7a                        12          8      100.0% -        66.7%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc7b                         6          0        0.0% -         0.0%
+cpp       :aoc7b                        10          6      100.0% -        60.0%
+go        :aoc7b                         5          5      100.0% -       100.0%
+haskell   :aoc7b                         9          2       22.2% -        22.2%
+ocaml     :aoc7b                         6          2       50.0% -        33.3%
+python    :aoc7b                        18         10      100.0% -        55.6%
+rust      :aoc7b                        13          7       76.9% -        53.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc8a                         7          1       28.6% -        14.3%
+cpp       :aoc8a                        10          3      100.0% -        30.0%
+go        :aoc8a                         5          2      100.0% -        40.0%
+haskell   :aoc8a                        11          4       72.7% -        36.4%
+ocaml     :aoc8a                         5          1       40.0% -        20.0%
+python    :aoc8a                        17          5      100.0% -        29.4%
+rust      :aoc8a                        13          4       84.6% -        30.8%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc8b                         7          1       14.3% -        14.3%
+cpp       :aoc8b                         9          6      100.0% -        66.7%
+go        :aoc8b                         5          2      100.0% -        40.0%
+haskell   :aoc8b                         9          2       66.7% -        22.2%
+ocaml     :aoc8b                         4          2      100.0% -        50.0%
+python    :aoc8b                        14          5      100.0% -        35.7%
+rust      :aoc8b                        11          5       90.9% -        45.5%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc9a                         6          0       33.3% -         0.0%
+cpp       :aoc9a                         9          3      100.0% -        33.3%
+go        :aoc9a                         5          1      100.0% -        20.0%
+haskell   :aoc9a                         9          0       44.4% -         0.0%
+ocaml     :aoc9a                         6          1       50.0% -        16.7%
+python    :aoc9a                        13          2       84.6% -        15.4%
+rust      :aoc9a                        12          0       75.0% -         0.0%
+
+--------------------------------------------------------------------------------
+
+Lang       Problem ID             Attempts    Correct  Compile %  Success %
+ada       :aoc9b                         7          0       28.6% -         0.0%
+cpp       :aoc9b                         9          2       88.9% -        22.2%
+go        :aoc9b                         5          1      100.0% -        20.0%
+haskell   :aoc9b                        13          0        7.7% -         0.0%
+ocaml     :aoc9b                         7          0       14.3% -         0.0%
+python    :aoc9b                        14          2       71.4% -        14.3%
+rust      :aoc9b                        13          1       76.9% -         7.7%
+
+--------------------------------------------------------------------------------
+

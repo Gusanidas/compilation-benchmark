@@ -1,0 +1,19 @@
+AddSeries "Breaking Bad"
+AddSeries "Better Call Saul"
+AddSeries "No Episodes"
+AddEpisode "Breaking Bad" "Pilot" 1 "Bryan Cranston" "Aaron Paul" "Anna Gunn"
+AddEpisode "Breaking Bad" "Cat's in the Bag..." 2 "Bryan Cranston" "Aaron Paul" "Anna Gunn" "Bob Odenkirk"
+AddReview "Breaking Bad" "Pilot" 5
+AddReview "Breaking Bad" "Pilot" 4
+AddEpisode "Better Call Saul" "Piloto" 1 "Bob Odenkirk" "Jonathan Banks"
+GetSeriesRating "Breaking Bad"
+GetEpisodeRating "Breaking Bad" "Pilot"
+GetEpisodeRating "Better Call Saul" "Uno"
+GetSeriesByRating
+GetEpisodesByRating "Breaking Bad"
+GetSeriesByActor "Bryan Cranston"
+GetSeriesByActor "Bob Odenkirk"
+RemoveActorFromEpisode "Breaking Bad" "Cat's in the Bag..." "Bob Odenkirk"
+GetSeriesByActor "Bob Odenkirk"
+GetSeriesRating "No Episodes"
+GetSeriesRating "Breaking Bad"

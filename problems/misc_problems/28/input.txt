@@ -1,0 +1,60 @@
+AddSeries "Breaking Bad"
+AddSeries "Better Call Saul"
+AddSeries "The Wire"
+AddSeries "No Episodes"
+AddSeries "Breaking Bad"
+
+AddEpisode "Breaking Bad" "Pilot" 1 "Bryan Cranston" "Aaron Paul" "Anna Gunn"
+AddEpisode "Breaking Bad" "Cat's in the Bag..." 2 "Bryan Cranston" "Aaron Paul" "Anna Gunn" "Bob Odenkirk"
+AddEpisode "Breaking Bad" "...And the Bag's in the River" 3 "Bryan Cranston" "Aaron Paul" "Anna Gunn"
+AddEpisode "Better Call Saul" "Uno" 1 "Bob Odenkirk" "Jonathan Banks" "Rhea Seehorn"
+AddEpisode "Better Call Saul" "Mijo" 2 "Bob Odenkirk" "Jonathan Banks" "Michael McKean"
+AddEpisode "The Wire" "The Target" 1 "Dominic West" "Idris Elba" "Lance Reddick"
+AddEpisode "The Wire" "The Detail" 2 "Dominic West" "Idris Elba" "Sonja Sohn"
+AddReview "Breaking Bad" "Pilot" 5
+AddReview "Breaking Bad" "Pilot" 4
+AddReview "Breaking Bad" "Cat's in the Bag..." 4
+AddReview "Breaking Bad" "Cat's in the Bag..." 5
+AddReview "Breaking Bad" "...And the Bag's in the River" 5
+AddReview "Better Call Saul" "Uno" 4
+AddReview "Better Call Saul" "Uno" 5
+AddReview "Better Call Saul" "Mijo" 5
+AddReview "The Wire" "The Target" 5
+AddReview "The Wire" "The Detail" 4
+GetSeriesRating "Breaking Bad"
+GetSeriesRating "Better Call Saul"
+GetSeriesRating "The Wire"
+GetSeriesRating "No Episodes"
+GetSeriesRating "NonexistentShow"
+GetEpisodeRating "Breaking Bad" "Pilot"
+GetEpisodeRating "Breaking Bad" "Cat's in the Bag..."
+GetEpisodeRating "Better Call Saul" "Uno"
+GetEpisodeRating "Better Call Saul" "NonexistentEpisode"
+GetEpisodeRating "The Wire" "The Target"
+GetSeriesByRating
+GetEpisodesByRating "Breaking Bad"
+GetEpisodesByRating "Better Call Saul"
+GetEpisodesByRating "The Wire"
+GetEpisodesByRating "No Episodes"
+GetSeriesByActor "Bryan Cranston"
+GetSeriesByActor "Bob Odenkirk"
+GetSeriesByActor "Idris Elba"
+GetSeriesByActor "NonexistentActor"
+GetActorsBySeries "Breaking Bad"
+GetActorsBySeries "Better Call Saul"
+GetActorsBySeries "The Wire"
+GetActorsBySeries "No Episodes"
+RemoveActorFromEpisode "Breaking Bad" "Cat's in the Bag..." "Bob Odenkirk"
+GetSeriesByActor "Bob Odenkirk"
+GetActorsBySeries "Breaking Bad"
+AddEpisode "Breaking Bad" "Cat's in the Bag..." 2 "Bryan Cranston" "Aaron Paul"
+AddEpisode "Better Call Saul" "Uno" 1 "Bob Odenkirk" "Jonathan Banks"
+AddReview "Breaking Bad" "Pilot" 1
+GetEpisodeRating "Breaking Bad" "Pilot"
+GetSeriesRating "Breaking Bad"
+AddReview "Breaking Bad" "NonexistentEpisode" 5
+AddReview "Breaking Bad" "Pilot" 6
+AddReview "NonexistentShow" "Pilot" 4
+RemoveActorFromEpisode "Breaking Bad" "Pilot" "NonexistentActor"
+RemoveActorFromEpisode "Breaking Bad" "NonexistentEpisode" "Bryan Cranston"
+RemoveActorFromEpisode "NonexistentShow" "Pilot" "Bryan Cranston"

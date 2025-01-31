@@ -1,0 +1,14 @@
+Problem Statement:
+Write a function that processes an array of integers and returns a new array where:
+
+Integers are grouped by their frequency in descending order (i.e., numbers that appear more often come first).
+If two numbers have the same frequency, they are sorted in ascending order within their group.
+The input array can contain both positive and negative integers.
+
+Example Input:
+1 3 4 2 2 4 1 4
+2 1 1
+
+Example Output:
+4 4 4 1 1 1 2 2 3
+

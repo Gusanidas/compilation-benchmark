@@ -1,11 +1,9 @@
-
-    Race a car
-    A man, a plan, a canal: Panama
-    Never odd or even
-    Do geese see God?
-    Was it a car or a cat I saw?
-    hello world
-    12321
-    A Santa at NASA
-    Are we not pure? "No, sir!" Panama's moody Noriega brags. "It is garbage!" Irony dooms a man—a prisoner up to new era.
-    
+Race a car
+A man, a plan, a canal: Panama
+Never odd or even
+Do geese see God?
+Was it a car or a cat I saw?
+hello world
+12321
+A Santa at NASA
+Are we not pure? "No, sir!" Panama's moody Noriega brags. "It is garbage!" Irony dooms a man—a prisoner up to new era.

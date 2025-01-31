@@ -20,8 +20,9 @@ Required Operations:
 
 Example Tree after insertions:
        5
-      /      3   7
-             4
+      /
+    3     7
+      4
 
 Input format:
 - Each line contains one operation: either "insert X" or "search X" where X is an integer

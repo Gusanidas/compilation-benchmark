@@ -1,0 +1,19 @@
+true
+true
+true
+true
+true
+true
+true
+true
+2.25
+4.5
+false
+Breaking Bad,Better Call Saul,No Episodes
+Pilot,Cat's in the Bag...
+Breaking Bad
+Better Call Saul,Breaking Bad
+true
+Better Call Saul
+false
+2.25

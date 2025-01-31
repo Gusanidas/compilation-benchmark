@@ -1,0 +1,7 @@
+Write a function that finds the second largest integer in an array of numbers.
+Constraints:
+
+The input array will contain integers between -10^9 and 10^9
+The array length will be between 2 and 10^5 elements
+The array will contain at least two different elements
+The second largest integer is different from the largest integer, if the largest integer appears more than once in the array

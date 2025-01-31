@@ -1,0 +1,658 @@
+Language: CSV, Dedup Size Bytes: 6770178 MB
+Language: Text, Dedup Size Bytes: 5267987 MB
+Language: JSON, Dedup Size Bytes: 3685709 MB
+Language: Jupyter Notebook, Dedup Size Bytes: 3091544 MB
+Language: HTML, Dedup Size Bytes: 2419866 MB
+Language: XML, Dedup Size Bytes: 2340701 MB
+Language: JavaScript, Dedup Size Bytes: 1115420 MB
+Language: Unity3D Asset, Dedup Size Bytes: 757820 MB
+Language: SVG, Dedup Size Bytes: 685822 MB
+Language: Java, Dedup Size Bytes: 547999 MB
+Language: YAML, Dedup Size Bytes: 402536 MB
+Language: Wavefront Object, Dedup Size Bytes: 374124 MB
+Language: C++, Dedup Size Bytes: 353894 MB
+Language: SQL, Dedup Size Bytes: 281450 MB
+Language: Markdown, Dedup Size Bytes: 281042 MB
+Language: PostScript, Dedup Size Bytes: 280314 MB
+Language: TSV, Dedup Size Bytes: 261100 MB
+Language: C#, Dedup Size Bytes: 239891 MB
+Language: Python, Dedup Size Bytes: 233291 MB
+Language: PHP, Dedup Size Bytes: 224585 MB
+Language: C, Dedup Size Bytes: 202049 MB
+Language: CSS, Dedup Size Bytes: 161679 MB
+Language: STL, Dedup Size Bytes: 88262 MB
+Language: Roff, Dedup Size Bytes: 80376 MB
+Language: COLLADA, Dedup Size Bytes: 78526 MB
+Language: G-code, Dedup Size Bytes: 73276 MB
+Language: Pickle, Dedup Size Bytes: 67885 MB
+Language: Mathematica, Dedup Size Bytes: 61238 MB
+Language: TypeScript, Dedup Size Bytes: 61012 MB
+Language: Go, Dedup Size Bytes: 54597 MB
+Language: Roff Manpage, Dedup Size Bytes: 54259 MB
+Language: OpenEdge ABL, Dedup Size Bytes: 40649 MB
+Language: WebVTT, Dedup Size Bytes: 39815 MB
+Language: TeX, Dedup Size Bytes: 35864 MB
+Language: Objective-C, Dedup Size Bytes: 33946 MB
+Language: Lua, Dedup Size Bytes: 33913 MB
+Language: Vue, Dedup Size Bytes: 33136 MB
+Language: Ruby, Dedup Size Bytes: 31703 MB
+Language: AGS Script, Dedup Size Bytes: 29975 MB
+Language: Gerber Image, Dedup Size Bytes: 29596 MB
+Language: Java Server Pages, Dedup Size Bytes: 29572 MB
+Language: Smali, Dedup Size Bytes: 29339 MB
+Language: Unix Assembly, Dedup Size Bytes: 29339 MB
+Language: Verilog, Dedup Size Bytes: 28475 MB
+Language: Rich Text Format, Dedup Size Bytes: 26557 MB
+Language: VHDL, Dedup Size Bytes: 26551 MB
+Language: MATLAB, Dedup Size Bytes: 25864 MB
+Language: SCSS, Dedup Size Bytes: 24179 MB
+Language: Blade, Dedup Size Bytes: 24177 MB
+Language: Swift, Dedup Size Bytes: 23756 MB
+Language: Pascal, Dedup Size Bytes: 23002 MB
+Language: R, Dedup Size Bytes: 22393 MB
+Language: Turtle, Dedup Size Bytes: 22259 MB
+Language: Makefile, Dedup Size Bytes: 21304 MB
+Language: Shell, Dedup Size Bytes: 19815 MB
+Language: Kotlin, Dedup Size Bytes: 18332 MB
+Language: KiCad Layout, Dedup Size Bytes: 18328 MB
+Language: Gnuplot, Dedup Size Bytes: 18130 MB
+Language: CoNLL-U, Dedup Size Bytes: 17428 MB
+Language: Dart, Dedup Size Bytes: 16903 MB
+Language: Visual Basic .NET, Dedup Size Bytes: 16633 MB
+Language: Diff, Dedup Size Bytes: 16433 MB
+Language: Rust, Dedup Size Bytes: 15601 MB
+Language: Gettext Catalog, Dedup Size Bytes: 15542 MB
+Language: Motorola 68K Assembly, Dedup Size Bytes: 14804 MB
+Language: Public Key, Dedup Size Bytes: 14612 MB
+Language: DirectX 3D File, Dedup Size Bytes: 14534 MB
+Language: INI, Dedup Size Bytes: 14326 MB
+Language: HTML+Razor, Dedup Size Bytes: 13504 MB
+Language: SubRip Text, Dedup Size Bytes: 13502 MB
+Language: X PixMap, Dedup Size Bytes: 13291 MB
+Language: TSX, Dedup Size Bytes: 13033 MB
+Language: Assembly, Dedup Size Bytes: 13021 MB
+Language: Scala, Dedup Size Bytes: 12728 MB
+Language: Web Ontology Language, Dedup Size Bytes: 12693 MB
+Language: BibTeX, Dedup Size Bytes: 12440 MB
+Language: reStructuredText, Dedup Size Bytes: 12202 MB
+Language: TSQL, Dedup Size Bytes: 11499 MB
+Language: Eagle, Dedup Size Bytes: 11137 MB
+Language: PLSQL, Dedup Size Bytes: 10926 MB
+Language: Raw token data, Dedup Size Bytes: 10785 MB
+Language: LLVM, Dedup Size Bytes: 10457 MB
+Language: HTML+ERB, Dedup Size Bytes: 10161 MB
+Language: ASP.NET, Dedup Size Bytes: 9575 MB
+Language: RMarkdown, Dedup Size Bytes: 9543 MB
+Language: PLpgSQL, Dedup Size Bytes: 9346 MB
+Language: Hack, Dedup Size Bytes: 9106 MB
+Language: Graphviz (DOT), Dedup Size Bytes: 8906 MB
+Language: Java Properties, Dedup Size Bytes: 8200 MB
+Language: Perl, Dedup Size Bytes: 7815 MB
+Language: Lasso, Dedup Size Bytes: 6952 MB
+Language: Microsoft Visual Studio Solution, Dedup Size Bytes: 6699 MB
+Language: XML Property List, Dedup Size Bytes: 6214 MB
+Language: GLSL, Dedup Size Bytes: 6199 MB
+Language: Julia, Dedup Size Bytes: 6117 MB
+Language: JetBrains MPS, Dedup Size Bytes: 6081 MB
+Language: Spline Font Database, Dedup Size Bytes: 5808 MB
+Language: E-mail, Dedup Size Bytes: 5587 MB
+Language: Raku, Dedup Size Bytes: 5577 MB
+Language: Wikitext, Dedup Size Bytes: 5235 MB
+Language: Org, Dedup Size Bytes: 5113 MB
+Language: Haskell, Dedup Size Bytes: 5109 MB
+Language: EJS, Dedup Size Bytes: 5060 MB
+Language: Max, Dedup Size Bytes: 5004 MB
+Language: Jest Snapshot, Dedup Size Bytes: 4989 MB
+Language: Less, Dedup Size Bytes: 4947 MB
+Language: Fortran Free Form, Dedup Size Bytes: 4904 MB
+Language: HCL, Dedup Size Bytes: 4667 MB
+Language: Fortran, Dedup Size Bytes: 4663 MB
+Language: VBA, Dedup Size Bytes: 4604 MB
+Language: Scheme, Dedup Size Bytes: 4552 MB
+Language: Gherkin, Dedup Size Bytes: 4450 MB
+Language: Protocol Buffer Text Format, Dedup Size Bytes: 4370 MB
+Language: SMT, Dedup Size Bytes: 4225 MB
+Language: Twig, Dedup Size Bytes: 4084 MB
+Language: Maven POM, Dedup Size Bytes: 4063 MB
+Language: PowerShell, Dedup Size Bytes: 3974 MB
+Language: AsciiDoc, Dedup Size Bytes: 3882 MB
+Language: Turing, Dedup Size Bytes: 3783 MB
+Language: ReScript, Dedup Size Bytes: 3780 MB
+Language: Prolog, Dedup Size Bytes: 3767 MB
+Language: ActionScript, Dedup Size Bytes: 3756 MB
+Language: edn, Dedup Size Bytes: 3644 MB
+Language: Graph Modeling Language, Dedup Size Bytes: 3609 MB
+Language: Tcl, Dedup Size Bytes: 3536 MB
+Language: Pug, Dedup Size Bytes: 3411 MB
+Language: Boogie, Dedup Size Bytes: 3289 MB
+Language: Groovy, Dedup Size Bytes: 3209 MB
+Language: Objective-C++, Dedup Size Bytes: 3198 MB
+Language: ASL, Dedup Size Bytes: 3186 MB
+Language: Smarty, Dedup Size Bytes: 3166 MB
+Language: nesC, Dedup Size Bytes: 3070 MB
+Language: Yacc, Dedup Size Bytes: 2998 MB
+Language: 1C Enterprise, Dedup Size Bytes: 2991 MB
+Language: DIGITAL Command Language, Dedup Size Bytes: 2901 MB
+Language: TOML, Dedup Size Bytes: 2841 MB
+Language: Standard ML, Dedup Size Bytes: 2808 MB
+Language: Common Lisp, Dedup Size Bytes: 2783 MB
+Language: Apex, Dedup Size Bytes: 2742 MB
+Language: Coq, Dedup Size Bytes: 2736 MB
+Language: OCaml, Dedup Size Bytes: 2727 MB
+Language: M, Dedup Size Bytes: 2695 MB
+Language: sed, Dedup Size Bytes: 2608 MB
+Language: Handlebars, Dedup Size Bytes: 2579 MB
+Language: CMake, Dedup Size Bytes: 2577 MB
+Language: Ignore List, Dedup Size Bytes: 2577 MB
+Language: Classic ASP, Dedup Size Bytes: 2488 MB
+Language: KiCad Schematic, Dedup Size Bytes: 2453 MB
+Language: Mercury, Dedup Size Bytes: 2417 MB
+Language: Solidity, Dedup Size Bytes: 2409 MB
+Language: CoffeeScript, Dedup Size Bytes: 2398 MB
+Language: POV-Ray SDL, Dedup Size Bytes: 2355 MB
+Language: XSLT, Dedup Size Bytes: 2199 MB
+Language: Racket, Dedup Size Bytes: 2195 MB
+Language: Glyph Bitmap Distribution Format, Dedup Size Bytes: 2142 MB
+Language: GAP, Dedup Size Bytes: 2128 MB
+Language: Batchfile, Dedup Size Bytes: 2114 MB
+Language: Vim Script, Dedup Size Bytes: 2068 MB
+Language: Erlang, Dedup Size Bytes: 1993 MB
+Language: OpenStep Property List, Dedup Size Bytes: 1983 MB
+Language: Emacs Lisp, Dedup Size Bytes: 1974 MB
+Language: D, Dedup Size Bytes: 1898 MB
+Language: ObjDump, Dedup Size Bytes: 1876 MB
+Language: HTML+PHP, Dedup Size Bytes: 1836 MB
+Language: Fluent, Dedup Size Bytes: 1812 MB
+Language: Elixir, Dedup Size Bytes: 1806 MB
+Language: JSON with Comments, Dedup Size Bytes: 1806 MB
+Language: Smalltalk, Dedup Size Bytes: 1799 MB
+Language: Clojure, Dedup Size Bytes: 1781 MB
+Language: HAProxy, Dedup Size Bytes: 1759 MB
+Language: JSONLD, Dedup Size Bytes: 1755 MB
+Language: F#, Dedup Size Bytes: 1742 MB
+Language: Groovy Server Pages, Dedup Size Bytes: 1703 MB
+Language: SAS, Dedup Size Bytes: 1658 MB
+Language: Cuda, Dedup Size Bytes: 1649 MB
+Language: SystemVerilog, Dedup Size Bytes: 1614 MB
+Language: Stata, Dedup Size Bytes: 1603 MB
+Language: Processing, Dedup Size Bytes: 1585 MB
+Language: Sass, Dedup Size Bytes: 1565 MB
+Language: AMPL, Dedup Size Bytes: 1564 MB
+Language: SWIG, Dedup Size Bytes: 1556 MB
+Language: UnrealScript, Dedup Size Bytes: 1485 MB
+Language: xBase, Dedup Size Bytes: 1457 MB
+Language: WebAssembly, Dedup Size Bytes: 1422 MB
+Language: Starlark, Dedup Size Bytes: 1400 MB
+Language: Gradle, Dedup Size Bytes: 1400 MB
+Language: CWeb, Dedup Size Bytes: 1390 MB
+Language: Forth, Dedup Size Bytes: 1385 MB
+Language: DNS Zone, Dedup Size Bytes: 1352 MB
+Language: SourcePawn, Dedup Size Bytes: 1346 MB
+Language: Pure Data, Dedup Size Bytes: 1328 MB
+Language: Protocol Buffer, Dedup Size Bytes: 1314 MB
+Language: Pawn, Dedup Size Bytes: 1306 MB
+Language: Checksums, Dedup Size Bytes: 1274 MB
+Language: Linux Kernel Module, Dedup Size Bytes: 1270 MB
+Language: Dockerfile, Dedup Size Bytes: 1266 MB
+Language: mIRC Script, Dedup Size Bytes: 1239 MB
+Language: Common Workflow Language, Dedup Size Bytes: 1237 MB
+Language: Rebol, Dedup Size Bytes: 1232 MB
+Language: Haml, Dedup Size Bytes: 1214 MB
+Language: RPM Spec, Dedup Size Bytes: 1205 MB
+Language: LabVIEW, Dedup Size Bytes: 1182 MB
+Language: Haxe, Dedup Size Bytes: 1165 MB
+Language: PureBasic, Dedup Size Bytes: 1119 MB
+Language: Lex, Dedup Size Bytes: 1104 MB
+Language: Scilab, Dedup Size Bytes: 1087 MB
+Language: Portugol, Dedup Size Bytes: 1032 MB
+Language: Genshi, Dedup Size Bytes: 988 MB
+Language: E, Dedup Size Bytes: 967 MB
+Language: Linker Script, Dedup Size Bytes: 955 MB
+Language: Liquid, Dedup Size Bytes: 934 MB
+Language: Limbo, Dedup Size Bytes: 931 MB
+Language: Ren'Py, Dedup Size Bytes: 896 MB
+Language: Elm, Dedup Size Bytes: 879 MB
+Language: AngelScript, Dedup Size Bytes: 856 MB
+Language: Eiffel, Dedup Size Bytes: 836 MB
+Language: COBOL, Dedup Size Bytes: 828 MB
+Language: QML, Dedup Size Bytes: 825 MB
+Language: Ada, Dedup Size Bytes: 825 MB
+Language: F*, Dedup Size Bytes: 808 MB
+Language: IRC log, Dedup Size Bytes: 788 MB
+Language: Game Maker Language, Dedup Size Bytes: 780 MB
+Language: IDL, Dedup Size Bytes: 768 MB
+Language: Csound Document, Dedup Size Bytes: 745 MB
+Language: Windows Registry Entries, Dedup Size Bytes: 744 MB
+Language: Adobe Font Metrics, Dedup Size Bytes: 735 MB
+Language: Logos, Dedup Size Bytes: 727 MB
+Language: Stylus, Dedup Size Bytes: 714 MB
+Language: SQF, Dedup Size Bytes: 695 MB
+Language: BASIC, Dedup Size Bytes: 688 MB
+Language: Nix, Dedup Size Bytes: 682 MB
+Language: Nim, Dedup Size Bytes: 676 MB
+Language: OpenSCAD, Dedup Size Bytes: 661 MB
+Language: GDScript, Dedup Size Bytes: 647 MB
+Language: Genero, Dedup Size Bytes: 633 MB
+Language: Nextflow, Dedup Size Bytes: 617 MB
+Language: Berry, Dedup Size Bytes: 616 MB
+Language: JAR Manifest, Dedup Size Bytes: 603 MB
+Language: GAMS, Dedup Size Bytes: 588 MB
+Language: ColdFusion, Dedup Size Bytes: 571 MB
+Language: Jinja, Dedup Size Bytes: 551 MB
+Language: RPGLE, Dedup Size Bytes: 551 MB
+Language: Altium Designer, Dedup Size Bytes: 549 MB
+Language: Nasal, Dedup Size Bytes: 541 MB
+Language: KiCad Legacy Layout, Dedup Size Bytes: 521 MB
+Language: Harbour, Dedup Size Bytes: 511 MB
+Language: NewLisp, Dedup Size Bytes: 510 MB
+Language: Ninja, Dedup Size Bytes: 509 MB
+Language: Objective-J, Dedup Size Bytes: 505 MB
+Language: Modelica, Dedup Size Bytes: 503 MB
+Language: Svelte, Dedup Size Bytes: 494 MB
+Language: Euphoria, Dedup Size Bytes: 489 MB
+Language: FreeBasic, Dedup Size Bytes: 487 MB
+Language: PowerBuilder, Dedup Size Bytes: 479 MB
+Language: Red, Dedup Size Bytes: 477 MB
+Language: OpenCL, Dedup Size Bytes: 474 MB
+Language: HiveQL, Dedup Size Bytes: 473 MB
+Language: GraphQL, Dedup Size Bytes: 469 MB
+Language: Cython, Dedup Size Bytes: 468 MB
+Language: mcfunction, Dedup Size Bytes: 464 MB
+Language: MAXScript, Dedup Size Bytes: 456 MB
+Language: AutoIt, Dedup Size Bytes: 445 MB
+Language: RPC, Dedup Size Bytes: 436 MB
+Language: ShaderLab, Dedup Size Bytes: 433 MB
+Language: Arc, Dedup Size Bytes: 429 MB
+Language: Isabelle, Dedup Size Bytes: 429 MB
+Language: Go Checksums, Dedup Size Bytes: 429 MB
+Language: Crystal, Dedup Size Bytes: 428 MB
+Language: DM, Dedup Size Bytes: 426 MB
+Language: Ant Build System, Dedup Size Bytes: 419 MB
+Language: CAP CDS, Dedup Size Bytes: 417 MB
+Language: RobotFramework, Dedup Size Bytes: 415 MB
+Language: Pic, Dedup Size Bytes: 409 MB
+Language: LilyPond, Dedup Size Bytes: 406 MB
+Language: q, Dedup Size Bytes: 406 MB
+Language: HLSL, Dedup Size Bytes: 402 MB
+Language: Slim, Dedup Size Bytes: 400 MB
+Language: Sage, Dedup Size Bytes: 399 MB
+Language: Promela, Dedup Size Bytes: 398 MB
+Language: AL, Dedup Size Bytes: 392 MB
+Language: Macaulay2, Dedup Size Bytes: 391 MB
+Language: Pep8, Dedup Size Bytes: 390 MB
+Language: AutoHotkey, Dedup Size Bytes: 385 MB
+Language: ABAP, Dedup Size Bytes: 384 MB
+Language: NL, Dedup Size Bytes: 378 MB
+Language: M4Sugar, Dedup Size Bytes: 364 MB
+Language: Tcsh, Dedup Size Bytes: 358 MB
+Language: LiveScript, Dedup Size Bytes: 357 MB
+Language: DTrace, Dedup Size Bytes: 356 MB
+Language: M4, Dedup Size Bytes: 354 MB
+Language: Puppet, Dedup Size Bytes: 342 MB
+Language: SPARQL, Dedup Size Bytes: 338 MB
+Language: VBScript, Dedup Size Bytes: 336 MB
+Language: OpenQASM, Dedup Size Bytes: 334 MB
+Language: OpenType Feature File, Dedup Size Bytes: 331 MB
+Language: YANG, Dedup Size Bytes: 329 MB
+Language: Component Pascal, Dedup Size Bytes: 329 MB
+Language: Wavefront Material, Dedup Size Bytes: 324 MB
+Language: Papyrus, Dedup Size Bytes: 322 MB
+Language: Zig, Dedup Size Bytes: 318 MB
+Language: Grammatical Framework, Dedup Size Bytes: 309 MB
+Language: ColdFusion CFC, Dedup Size Bytes: 307 MB
+Language: Vim Help File, Dedup Size Bytes: 305 MB
+Language: GEDCOM, Dedup Size Bytes: 305 MB
+Language: PlantUML, Dedup Size Bytes: 302 MB
+Language: GSC, Dedup Size Bytes: 274 MB
+Language: HTTP, Dedup Size Bytes: 274 MB
+Language: Agda, Dedup Size Bytes: 274 MB
+Language: SuperCollider, Dedup Size Bytes: 272 MB
+Language: V, Dedup Size Bytes: 272 MB
+Language: Slash, Dedup Size Bytes: 269 MB
+Language: Nunjucks, Dedup Size Bytes: 263 MB
+Language: QMake, Dedup Size Bytes: 260 MB
+Language: Vim Snippet, Dedup Size Bytes: 253 MB
+Language: FreeMarker, Dedup Size Bytes: 251 MB
+Language: AspectJ, Dedup Size Bytes: 246 MB
+Language: Mustache, Dedup Size Bytes: 244 MB
+Language: Texinfo, Dedup Size Bytes: 241 MB
+Language: API Blueprint, Dedup Size Bytes: 237 MB
+Language: SELinux Policy, Dedup Size Bytes: 237 MB
+Language: ASN.1, Dedup Size Bytes: 233 MB
+Language: NWScript, Dedup Size Bytes: 231 MB
+Language: Io, Dedup Size Bytes: 231 MB
+Language: Genero Forms, Dedup Size Bytes: 228 MB
+Language: Brainfuck, Dedup Size Bytes: 221 MB
+Language: ApacheConf, Dedup Size Bytes: 220 MB
+Language: PureScript, Dedup Size Bytes: 220 MB
+Language: Clarion, Dedup Size Bytes: 219 MB
+Language: Textile, Dedup Size Bytes: 214 MB
+Language: kvlang, Dedup Size Bytes: 209 MB
+Language: Gentoo Ebuild, Dedup Size Bytes: 208 MB
+Language: Clean, Dedup Size Bytes: 206 MB
+Language: Reason, Dedup Size Bytes: 203 MB
+Language: XQuery, Dedup Size Bytes: 196 MB
+Language: Lean, Dedup Size Bytes: 192 MB
+Language: X BitMap, Dedup Size Bytes: 190 MB
+Language: C2hs Haskell, Dedup Size Bytes: 190 MB
+Language: Inform 7, Dedup Size Bytes: 189 MB
+Language: JSON5, Dedup Size Bytes: 189 MB
+Language: ObjectScript, Dedup Size Bytes: 185 MB
+Language: YARA, Dedup Size Bytes: 184 MB
+Language: JavaScript+ERB, Dedup Size Bytes: 184 MB
+Language: Bikeshed, Dedup Size Bytes: 184 MB
+Language: Pod, Dedup Size Bytes: 183 MB
+Language: ZenScript, Dedup Size Bytes: 182 MB
+Language: Go Module, Dedup Size Bytes: 182 MB
+Language: Git Config, Dedup Size Bytes: 181 MB
+Language: 2-Dimensional Array, Dedup Size Bytes: 180 MB
+Language: Csound Score, Dedup Size Bytes: 180 MB
+Language: eC, Dedup Size Bytes: 179 MB
+Language: Xtend, Dedup Size Bytes: 178 MB
+Language: CLIPS, Dedup Size Bytes: 172 MB
+Language: Modula-3, Dedup Size Bytes: 170 MB
+Language: Monkey C, Dedup Size Bytes: 168 MB
+Language: Alloy, Dedup Size Bytes: 167 MB
+Language: RouterOS Script, Dedup Size Bytes: 164 MB
+Language: Squirrel, Dedup Size Bytes: 162 MB
+Language: STAR, Dedup Size Bytes: 160 MB
+Language: LookML, Dedup Size Bytes: 155 MB
+Language: Parrot Internal Representation, Dedup Size Bytes: 155 MB
+Language: ANTLR, Dedup Size Bytes: 154 MB
+Language: Apollo Guidance Computer, Dedup Size Bytes: 154 MB
+Language: SQLPL, Dedup Size Bytes: 148 MB
+Language: RAML, Dedup Size Bytes: 148 MB
+Language: NetLogo, Dedup Size Bytes: 147 MB
+Language: MLIR, Dedup Size Bytes: 146 MB
+Language: Inno Setup, Dedup Size Bytes: 145 MB
+Language: Gemfile.lock, Dedup Size Bytes: 144 MB
+Language: XProc, Dedup Size Bytes: 143 MB
+Language: desktop, Dedup Size Bytes: 142 MB
+Language: Faust, Dedup Size Bytes: 141 MB
+Language: Formatted, Dedup Size Bytes: 138 MB
+Language: JSONiq, Dedup Size Bytes: 137 MB
+Language: Literate Haskell, Dedup Size Bytes: 137 MB
+Language: APL, Dedup Size Bytes: 135 MB
+Language: CSON, Dedup Size Bytes: 134 MB
+Language: CIL, Dedup Size Bytes: 133 MB
+Language: BrighterScript, Dedup Size Bytes: 132 MB
+Language: NASL, Dedup Size Bytes: 128 MB
+Language: MQL4, Dedup Size Bytes: 127 MB
+Language: Dafny, Dedup Size Bytes: 126 MB
+Language: HyPhy, Dedup Size Bytes: 125 MB
+Language: Ballerina, Dedup Size Bytes: 124 MB
+Language: Microsoft Developer Studio Project, Dedup Size Bytes: 123 MB
+Language: Tea, Dedup Size Bytes: 122 MB
+Language: Cabal Config, Dedup Size Bytes: 121 MB
+Language: Volt, Dedup Size Bytes: 120 MB
+Language: HTML+EEX, Dedup Size Bytes: 119 MB
+Language: BlitzBasic, Dedup Size Bytes: 117 MB
+Language: Nginx, Dedup Size Bytes: 115 MB
+Language: Nearley, Dedup Size Bytes: 115 MB
+Language: NCL, Dedup Size Bytes: 112 MB
+Language: Gosu, Dedup Size Bytes: 112 MB
+Language: Kit, Dedup Size Bytes: 111 MB
+Language: Asymptote, Dedup Size Bytes: 111 MB
+Language: Filebench WML, Dedup Size Bytes: 110 MB
+Language: fish, Dedup Size Bytes: 110 MB
+Language: GN, Dedup Size Bytes: 109 MB
+Language: Jasmin, Dedup Size Bytes: 108 MB
+Language: Beef, Dedup Size Bytes: 108 MB
+Language: Csound, Dedup Size Bytes: 105 MB
+Language: ChucK, Dedup Size Bytes: 104 MB
+Language: mupad, Dedup Size Bytes: 103 MB
+Language: Xojo, Dedup Size Bytes: 102 MB
+Language: IGOR Pro, Dedup Size Bytes: 101 MB
+Language: Cycript, Dedup Size Bytes: 99 MB
+Language: Mako, Dedup Size Bytes: 98 MB
+Language: RDoc, Dedup Size Bytes: 94 MB
+Language: NSIS, Dedup Size Bytes: 94 MB
+Language: Modula-2, Dedup Size Bytes: 90 MB
+Language: Latte, Dedup Size Bytes: 90 MB
+Language: SaltStack, Dedup Size Bytes: 88 MB
+Language: MQL5, Dedup Size Bytes: 87 MB
+Language: Git Attributes, Dedup Size Bytes: 86 MB
+Language: Witcher Script, Dedup Size Bytes: 82 MB
+Language: ECL, Dedup Size Bytes: 82 MB
+Language: BitBake, Dedup Size Bytes: 81 MB
+Language: Boo, Dedup Size Bytes: 80 MB
+Language: Ioke, Dedup Size Bytes: 79 MB
+Language: Vala, Dedup Size Bytes: 78 MB
+Language: EmberScript, Dedup Size Bytes: 78 MB
+Language: Ragel, Dedup Size Bytes: 78 MB
+Language: CodeQL, Dedup Size Bytes: 78 MB
+Language: Bluespec, Dedup Size Bytes: 77 MB
+Language: Debian Package Control File, Dedup Size Bytes: 74 MB
+Language: Cue Sheet, Dedup Size Bytes: 73 MB
+Language: ZIL, Dedup Size Bytes: 72 MB
+Language: Proguard, Dedup Size Bytes: 72 MB
+Language: XS, Dedup Size Bytes: 71 MB
+Language: jq, Dedup Size Bytes: 71 MB
+Language: Cirru, Dedup Size Bytes: 71 MB
+Language: Easybuild, Dedup Size Bytes: 69 MB
+Language: Motoko, Dedup Size Bytes: 69 MB
+Language: Awk, Dedup Size Bytes: 67 MB
+Language: X10, Dedup Size Bytes: 66 MB
+Language: Idris, Dedup Size Bytes: 65 MB
+Language: REXX, Dedup Size Bytes: 65 MB
+Language: LSL, Dedup Size Bytes: 62 MB
+Language: RenderScript, Dedup Size Bytes: 60 MB
+Language: Moocode, Dedup Size Bytes: 59 MB
+Language: Click, Dedup Size Bytes: 59 MB
+Language: BlitzMax, Dedup Size Bytes: 58 MB
+Language: wdl, Dedup Size Bytes: 58 MB
+Language: Q#, Dedup Size Bytes: 58 MB
+Language: Jsonnet, Dedup Size Bytes: 56 MB
+Language: J, Dedup Size Bytes: 56 MB
+Language: Redcode, Dedup Size Bytes: 55 MB
+Language: Logtalk, Dedup Size Bytes: 54 MB
+Language: SRecode Template, Dedup Size Bytes: 54 MB
+Language: SugarSS, Dedup Size Bytes: 53 MB
+Language: Propeller Spin, Dedup Size Bytes: 53 MB
+Language: AppleScript, Dedup Size Bytes: 51 MB
+Language: Pan, Dedup Size Bytes: 51 MB
+Language: CUE, Dedup Size Bytes: 51 MB
+Language: Terra, Dedup Size Bytes: 50 MB
+Language: Rascal, Dedup Size Bytes: 49 MB
+Language: ZAP, Dedup Size Bytes: 49 MB
+Language: P4, Dedup Size Bytes: 49 MB
+Language: XC, Dedup Size Bytes: 49 MB
+Language: Bicep, Dedup Size Bytes: 48 MB
+Language: Astro, Dedup Size Bytes: 47 MB
+Language: Glyph, Dedup Size Bytes: 47 MB
+Language: Self, Dedup Size Bytes: 47 MB
+Language: robots.txt, Dedup Size Bytes: 46 MB
+Language: NEON, Dedup Size Bytes: 44 MB
+Language: Move, Dedup Size Bytes: 44 MB
+Language: Cadence, Dedup Size Bytes: 44 MB
+Language: 4D, Dedup Size Bytes: 43 MB
+Language: JFlex, Dedup Size Bytes: 43 MB
+Language: PostCSS, Dedup Size Bytes: 43 MB
+Language: Brightscript, Dedup Size Bytes: 42 MB
+Language: UrWeb, Dedup Size Bytes: 42 MB
+Language: Stan, Dedup Size Bytes: 41 MB
+Language: MiniYAML, Dedup Size Bytes: 41 MB
+Language: Kusto, Dedup Size Bytes: 40 MB
+Language: TLA, Dedup Size Bytes: 40 MB
+Language: EditorConfig, Dedup Size Bytes: 40 MB
+Language: EQ, Dedup Size Bytes: 39 MB
+Language: ImageJ Macro, Dedup Size Bytes: 38 MB
+Language: Factor, Dedup Size Bytes: 38 MB
+Language: Pony, Dedup Size Bytes: 38 MB
+Language: REALbasic, Dedup Size Bytes: 37 MB
+Language: Alpine Abuild, Dedup Size Bytes: 36 MB
+Language: Thrift, Dedup Size Bytes: 36 MB
+Language: MUF, Dedup Size Bytes: 36 MB
+Language: CartoCSS, Dedup Size Bytes: 34 MB
+Language: Metal, Dedup Size Bytes: 34 MB
+Language: Odin, Dedup Size Bytes: 33 MB
+Language: Monkey, Dedup Size Bytes: 33 MB
+Language: Hy, Dedup Size Bytes: 33 MB
+Language: Open Policy Agent, Dedup Size Bytes: 32 MB
+Language: MoonScript, Dedup Size Bytes: 32 MB
+Language: Literate Agda, Dedup Size Bytes: 32 MB
+Language: PigLatin, Dedup Size Bytes: 30 MB
+Language: Literate CoffeeScript, Dedup Size Bytes: 30 MB
+Language: NetLinx, Dedup Size Bytes: 29 MB
+Language: Type Language, Dedup Size Bytes: 29 MB
+Language: ATS, Dedup Size Bytes: 28 MB
+Language: Edje Data Collection, Dedup Size Bytes: 28 MB
+Language: Ring, Dedup Size Bytes: 28 MB
+Language: HolyC, Dedup Size Bytes: 28 MB
+Language: Valve Data Format, Dedup Size Bytes: 28 MB
+Language: Dhall, Dedup Size Bytes: 28 MB
+Language: Win32 Message File, Dedup Size Bytes: 27 MB
+Language: Fancy, Dedup Size Bytes: 26 MB
+Language: YASnippet, Dedup Size Bytes: 26 MB
+Language: Zimpl, Dedup Size Bytes: 26 MB
+Language: Uno, Dedup Size Bytes: 26 MB
+Language: Zeek, Dedup Size Bytes: 26 MB
+Language: Oz, Dedup Size Bytes: 25 MB
+Language: Regular Expression, Dedup Size Bytes: 25 MB
+Language: Elvish, Dedup Size Bytes: 24 MB
+Language: Frege, Dedup Size Bytes: 23 MB
+Language: Meson, Dedup Size Bytes: 23 MB
+Language: Jison, Dedup Size Bytes: 23 MB
+Language: Closure Templates, Dedup Size Bytes: 22 MB
+Language: X Font Directory Index, Dedup Size Bytes: 22 MB
+Language: Dylan, Dedup Size Bytes: 22 MB
+Language: hoon, Dedup Size Bytes: 22 MB
+Language: Redirect Rules, Dedup Size Bytes: 21 MB
+Language: Zephir, Dedup Size Bytes: 21 MB
+Language: AIDL, Dedup Size Bytes: 21 MB
+Language: Rouge, Dedup Size Bytes: 20 MB
+Language: Nemerle, Dedup Size Bytes: 20 MB
+Language: Nu, Dedup Size Bytes: 20 MB
+Language: Ceylon, Dedup Size Bytes: 20 MB
+Language: World of Warcraft Addon Data, Dedup Size Bytes: 20 MB
+Language: Velocity Template Language, Dedup Size Bytes: 20 MB
+Language: Qt Script, Dedup Size Bytes: 19 MB
+Language: Fantom, Dedup Size Bytes: 19 MB
+Language: FIGlet Font, Dedup Size Bytes: 19 MB
+Language: PEG.js, Dedup Size Bytes: 19 MB
+Language: Prisma, Dedup Size Bytes: 18 MB
+Language: VCL, Dedup Size Bytes: 17 MB
+Language: Mask, Dedup Size Bytes: 17 MB
+Language: FLUX, Dedup Size Bytes: 17 MB
+Language: GDB, Dedup Size Bytes: 17 MB
+Language: Jolie, Dedup Size Bytes: 16 MB
+Language: Wollok, Dedup Size Bytes: 16 MB
+Language: GAML, Dedup Size Bytes: 16 MB
+Language: Isabelle ROOT, Dedup Size Bytes: 16 MB
+Language: Augeas, Dedup Size Bytes: 16 MB
+Language: Cool, Dedup Size Bytes: 15 MB
+Language: Marko, Dedup Size Bytes: 14 MB
+Language: LOLCODE, Dedup Size Bytes: 14 MB
+Language: Wren, Dedup Size Bytes: 13 MB
+Language: Pike, Dedup Size Bytes: 13 MB
+Language: TXL, Dedup Size Bytes: 13 MB
+Language: DenizenScript, Dedup Size Bytes: 13 MB
+Language: Muse, Dedup Size Bytes: 12 MB
+Language: RUNOFF, Dedup Size Bytes: 12 MB
+Language: GCC Machine Description, Dedup Size Bytes: 12 MB
+Language: DataWeave, Dedup Size Bytes: 11 MB
+Language: StringTemplate, Dedup Size Bytes: 11 MB
+Language: Procfile, Dedup Size Bytes: 11 MB
+Language: ooc, Dedup Size Bytes: 10 MB
+Language: Soong, Dedup Size Bytes: 10 MB
+Language: Fennel, Dedup Size Bytes: 10 MB
+Language: ECLiPSe, Dedup Size Bytes: 10 MB
+Language: Chapel, Dedup Size Bytes: 9 MB
+Language: Futhark, Dedup Size Bytes: 9 MB
+Language: Gemini, Dedup Size Bytes: 8 MB
+Language: EBNF, Dedup Size Bytes: 8 MB
+Language: Pod 6, Dedup Size Bytes: 8 MB
+Language: Opa, Dedup Size Bytes: 7 MB
+Language: KakouneScript, Dedup Size Bytes: 7 MB
+Language: PicoLisp, Dedup Size Bytes: 7 MB
+Language: CODEOWNERS, Dedup Size Bytes: 7 MB
+Language: Curry, Dedup Size Bytes: 7 MB
+Language: Gentoo Eclass, Dedup Size Bytes: 6 MB
+Language: XCompose, Dedup Size Bytes: 6 MB
+Language: KRL, Dedup Size Bytes: 6 MB
+Language: Slice, Dedup Size Bytes: 6 MB
+Language: HXML, Dedup Size Bytes: 6 MB
+Language: LTspice Symbol, Dedup Size Bytes: 6 MB
+Language: Vyper, Dedup Size Bytes: 6 MB
+Language: Unified Parallel C, Dedup Size Bytes: 6 MB
+Language: Charity, Dedup Size Bytes: 6 MB
+Language: Creole, Dedup Size Bytes: 5 MB
+Language: Bison, Dedup Size Bytes: 5 MB
+Language: Module Management System, Dedup Size Bytes: 5 MB
+Language: Ox, Dedup Size Bytes: 5 MB
+Language: Kaitai Struct, Dedup Size Bytes: 5 MB
+Language: MTML, Dedup Size Bytes: 5 MB
+Language: Lark, Dedup Size Bytes: 5 MB
+Language: Readline Config, Dedup Size Bytes: 5 MB
+Language: Janet, Dedup Size Bytes: 4 MB
+Language: Yul, Dedup Size Bytes: 4 MB
+Language: Avro IDL, Dedup Size Bytes: 4 MB
+Language: HOCON, Dedup Size Bytes: 4 MB
+Language: OpenRC runscript, Dedup Size Bytes: 4 MB
+Language: ABNF, Dedup Size Bytes: 4 MB
+Language: SSH Config, Dedup Size Bytes: 4 MB
+Language: SmPL, Dedup Size Bytes: 4 MB
+Language: Cloud Firestore Security Rules, Dedup Size Bytes: 4 MB
+Language: LFE, Dedup Size Bytes: 4 MB
+Language: WebIDL, Dedup Size Bytes: 4 MB
+Language: dircolors, Dedup Size Bytes: 4 MB
+Language: Singularity, Dedup Size Bytes: 3 MB
+Language: XPages, Dedup Size Bytes: 3 MB
+Language: Mint, Dedup Size Bytes: 3 MB
+Language: ABAP CDS, Dedup Size Bytes: 3 MB
+Language: nanorc, Dedup Size Bytes: 3 MB
+Language: Riot, Dedup Size Bytes: 3 MB
+Language: Gleam, Dedup Size Bytes: 3 MB
+Language: Grace, Dedup Size Bytes: 3 MB
+Language: Parrot, Dedup Size Bytes: 3 MB
+Language: Cairo, Dedup Size Bytes: 3 MB
+Language: HTML+ECR, Dedup Size Bytes: 2 MB
+Language: Cap'n Proto, Dedup Size Bytes: 2 MB
+Language: Xonsh, Dedup Size Bytes: 2 MB
+Language: Antlers, Dedup Size Bytes: 2 MB
+Language: Mirah, Dedup Size Bytes: 2 MB
+Language: Filterscript, Dedup Size Bytes: 2 MB
+Language: PogoScript, Dedup Size Bytes: 2 MB
+Language: LoomScript, Dedup Size Bytes: 2 MB
+Language: Darcs Patch, Dedup Size Bytes: 2 MB
+Language: STON, Dedup Size Bytes: 2 MB
+Language: Nit, Dedup Size Bytes: 2 MB
+Language: Dogescript, Dedup Size Bytes: 2 MB
+Language: Shen, Dedup Size Bytes: 2 MB
+Language: Browserslist, Dedup Size Bytes: 2 MB
+Language: Whiley, Dedup Size Bytes: 2 MB
+Language: Clarity, Dedup Size Bytes: 2 MB
+Language: NPM Config, Dedup Size Bytes: 1 MB
+Language: Object Data Instance Notation, Dedup Size Bytes: 1 MB
+Language: Talon, Dedup Size Bytes: 1 MB
+Language: CameLIGO, Dedup Size Bytes: 1 MB
+Language: LigoLANG, Dedup Size Bytes: 1 MB
+Language: Golo, Dedup Size Bytes: 1 MB
+Language: Record Jar, Dedup Size Bytes: 1 MB
+Language: Befunge, Dedup Size Bytes: 1 MB
+Language: wisp, Dedup Size Bytes: 1 MB
+Language: Parrot Assembly, Dedup Size Bytes: 1 MB
+Language: Genie, Dedup Size Bytes: 0 MB
+Language: Git Revision List, Dedup Size Bytes: 0 MB
+Language: Jison Lex, Dedup Size Bytes: 0 MB
+Language: Quake, Dedup Size Bytes: 0 MB
+Language: Scaml, Dedup Size Bytes: 0 MB
+Language: Oxygene, Dedup Size Bytes: 0 MB
+Language: Opal, Dedup Size Bytes: 0 MB
+Language: Sieve, Dedup Size Bytes: 0 MB
+Language: Earthly, Dedup Size Bytes: 0 MB
+Language: Myghty, Dedup Size Bytes: 0 MB
+Language: Ecere Projects, Dedup Size Bytes: 0 MB
+Language: TI Program, Dedup Size Bytes: 0 MB
+Language: ReasonLIGO, Dedup Size Bytes: 0 MB
+Language: TextMate Properties, Dedup Size Bytes: 0 MB
+Language: NumPy, Dedup Size Bytes: 0 MB
+Language: cURL Config, Dedup Size Bytes: 0 MB
+Language: Wget Config, Dedup Size Bytes: 0 MB
+Language: ShellSession, Dedup Size Bytes: 0 MB
+Language: ShellCheck Config, Dedup Size Bytes: 0 MB
+Language: NetLinx+ERB, Dedup Size Bytes: 0 MB
+Language: Omgrofl, Dedup Size Bytes: 0 MB
+Language: C-ObjDump, Dedup Size Bytes: 0 MB
+Language: Python traceback, Dedup Size Bytes: 0 MB
+Language: MiniD, Dedup Size Bytes: 0 MB

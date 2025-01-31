@@ -29,7 +29,9 @@ Example output:
 30
 6
 142
-The output should contain one result per line.
+
+The output should contain one result per line, and the code should handle basic input validation.
+The output should be written to stdout.
 For your solution:
 
 Provide all the code necessary to solve the problem in a single code block

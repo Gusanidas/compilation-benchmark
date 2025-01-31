@@ -1,0 +1,6 @@
+Write a function that finds the largest integer in an array of numbers.
+Constraints:
+
+The input array will contain integers between -10^9 and 10^9
+The array length will be between 1 and 10^5 elements
+The array will contain at least one element

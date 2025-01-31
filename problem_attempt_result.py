@@ -16,6 +16,7 @@ class ProblemAttemptResult:
     code_errors: Optional[str]
     attempt_error: Optional[str]
     code: Optional[str]
+    temperature: Optional[float] = None
 
     @classmethod
     def build_from_api_response(
@@ -25,6 +26,7 @@ class ProblemAttemptResult:
         programming_language: str,
         api_response: ExecuteCodeResponse,
         code: Optional[str] = None,
+        **kwargs,
     ) -> "ProblemAttemptResult":
         """
         Builds a ProblemAttemptResult instance from the new API response format.
@@ -69,6 +71,9 @@ class ProblemAttemptResult:
         # Code errors are now contained in the output field when execution fails
         code_errors = output if not runtime_success else None
 
+        # Check for temperature in kwargs
+        temperature = kwargs.get("temperature")
+
         return cls(
             problem_id=problem_id,
             programming_language=programming_language,
@@ -81,6 +86,7 @@ class ProblemAttemptResult:
             code_errors=code_errors,
             attempt_error=attempt_error,
             code=code,
+            temperature=temperature,
         )
 
     @classmethod
@@ -130,36 +136,94 @@ class ProblemAttemptResult:
         data = asdict(self)
         data.pop("attempt_error")
         data.pop("success")
+        if self.temperature is None:
+            data.pop("temperature")
         return data
 
 
 def compare_outputs(output: str, expected_output: str) -> bool:
     if output is None or expected_output is None or len(output) < 1:
         return False
-    output_lines = [line for line in output.splitlines() if line.strip()]
-    expected_lines = [line for line in expected_output.splitlines() if line.strip()]
-
+    
+    # Get non-empty lines and convert to lowercase
+    output_lines = [line.lower().strip() for line in output.splitlines() if line.strip()]
+    expected_lines = [line.lower().strip() for line in expected_output.splitlines() if line.strip()]
+    
     output_iter = iter(output_lines)
+    
+    def normalize_number_list(line: str) -> str:
+        # Check if the line appears to be a list of numbers
+        # First, try splitting by comma and/or spaces
+        potential_numbers = line.replace(',', ' ').split()
+        
+        # Check if all elements are numbers
+        try:
+            numbers = [float(num) for num in potential_numbers]
+            # If successful, return space-separated numbers
+            return ' '.join(str(num) for num in numbers)
+        except ValueError:
+            # If not all elements are numbers, return the original line
+            return line
     
     for expected_line in expected_lines:
         try:
             output_line = next(output_iter)
         except StopIteration:
             return False
-
-        if output_line.strip() != expected_line.strip():
+            
+        # Normalize both lines
+        expected_normalized = normalize_number_list(expected_line)
+        output_normalized = normalize_number_list(output_line)
+        
+        if output_normalized != expected_normalized:
             return False
-
-    for remaining_line in output_iter:
-        if remaining_line.strip():  
-            return False
-
+            
+    # Check for any remaining non-empty lines
+    #for remaining_line in output_iter:
+    #    if remaining_line.strip():
+    #        return False
+            
     return True
 
 
-def clean_output(output: str) -> str:
+def clean_output(output: str, programming_language: str = "") -> str:
+    """
+    Cleans the output string by removing unwanted lines based on the programming language.
+    
+    Args:
+        output: The raw output string to clean
+        programming_language: The programming language of the executed code (case insensitive)
+        
+    Returns:
+        A cleaned string with unwanted lines removed
+    """
+    # Convert programming_language to lowercase for case-insensitive comparison
+    programming_language = programming_language.lower()
+    
     cleaned_lines = []
-    for line in output.splitlines():
-        if "jdoodle" not in line.lower():
-            cleaned_lines.append(line)
+    
+    # Split the output into lines for processing
+    lines = output.splitlines()
+    
+    for line in lines:
+        # Skip any line containing 'jdoodle' (case insensitive)
+        if "jdoodle" in line.lower():
+            continue
+            
+        # For ADA specifically, skip compilation and linking messages
+        if programming_language == "ada":
+            # Skip gcc compilation messages
+            if line.startswith("gcc -c"):
+                continue
+            # Skip warning about file name
+            if "warning: file name does not match" in line:
+                continue
+            # Skip gnatbind and gnatlink messages
+            if line.startswith("gnatbind") or line.startswith("gnatlink"):
+                continue
+                
+        # If we haven't skipped the line, add it to our cleaned lines
+        cleaned_lines.append(line)
+    
+    # Join the remaining lines back together
     return "\n".join(cleaned_lines)

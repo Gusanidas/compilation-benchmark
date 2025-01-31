@@ -4,6 +4,7 @@ from collections import defaultdict
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
+import csv
 
 compile_success_rust = {
     "anthropic/claude-3-5-haiku": 76.2,
@@ -216,6 +217,13 @@ problem_success_go = {
     "x-ai/grok-2-1212": 31.4,
 }
 
+with open('model_stats.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        print(row)
+        break
+
+print(1/0)
 
 def compute_correlation(dict1, dict2):
     """

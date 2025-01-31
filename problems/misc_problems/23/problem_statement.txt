@@ -1,0 +1,6 @@
+Write a function that finds all "peak elements" in an array. A peak element is greater than both its adjacent elements. Elements at the edges (first and last positions) are considered peaks if they are greater than their single adjacent element.
+Constraints:
+
+The input array will contain integers between -10^9 and 10^9
+The array length will be between 1 and 10^5 elements
+Each number in the array is guaranteed to be unique

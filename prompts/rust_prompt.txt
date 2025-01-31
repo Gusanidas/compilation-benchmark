@@ -33,15 +33,18 @@ Example output:
 30
 6
 142
-The output should contain one result per line.
+
+The output should contain one result per line, and the code should handle basic input validation.
+The output should be written to stdout.
 
 For your solution:
 
-Provide all the code necessary to solve the problem in a single code block
-The code should contain a main function
-The code should compile and run successfully
-
-Write your solution in a single rust code block between triple quotes:
+Think carefully about the problem and write you reasoning before the code block.
+Code blocks should be structered as follows:
 ```rust
 // Your code here
 ```
+
+The last code block will be the solution, it should be standalone and contain all the necessary code to solve the problem.
+Do not import any additional libraries. Use the standard library only.
+It should include a main function and compile and run successfully with Rust.

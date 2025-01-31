@@ -55,10 +55,12 @@ async def attempt_zero_shot_solution(
 
     try:
         prompt = get_prompt(programming_language, problem)
-        content = await make_completion_call(prompt, provider, model=model)
+        content = await make_completion_call(prompt, provider, model=model, **kwargs)
+        print(f"Content: {content[:20]}")
 
         code = extract_code(content, programming_language)
         if code is None:
+            print(f"No code could be extracted from the completion")
             return ProblemAttemptResult.from_exception(
                 error_message="No code could be extracted from the completion",
                 problem_id=problem.problem_id,
@@ -83,6 +85,7 @@ async def attempt_zero_shot_solution(
                 programming_language=programming_language,
                 api_response=api_response,
                 code=code,
+                **kwargs,
             )
 
     except Exception as e:

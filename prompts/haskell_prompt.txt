@@ -41,7 +41,9 @@ Example output:
 30
 6
 142
-The output should contain one result per line.
+
+The output should contain one result per line, and the code should handle basic input validation.
+The output should be written to stdout.
 For your solution:
 
 Provide all the code necessary to solve the problem in a single code block
@@ -51,7 +53,10 @@ Handle parsing and input validation safely
 Follow standard Haskell idioms and conventions
 The code should write the output to stdout, and write nothing to stderr
 
-Write your solution in a single Haskell code block between triple backticks:
+The last code block will be the solution, it should be standalone and contain all the necessary code to solve the problem.
 ```haskell
  Your code here
 ```
+
+The last code block will be the solution, it should be standalone and contain all the necessary code to solve the problem.
+Think carefully about the problem and write your reasoning before the code block.

@@ -3,10 +3,13 @@ import httpx
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from functools import lru_cache
+import asyncio
+import json
 
 # Load environment variables
 load_dotenv()
 OPEN_ROUTER_KEY = os.getenv("OPEN_ROUTER_KEY")
+GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Track the first provider used
 _INITIALIZED_PROVIDER = None
@@ -26,9 +29,14 @@ class ProviderConfig:
         "base_url": "http://localhost:11434/api/generate"
     }
     
+    GEMINI = {
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/models",
+        "api_key": GOOGLE_API_KEY
+    }
+    
     @staticmethod
     def is_valid_provider(provider: str) -> bool:
-        return provider in ["open-router", "llama-cpp", "ollama"]
+        return provider in ["open-router", "llama-cpp", "ollama", "gemini"]
 
 
 async def generate_ollama_response(prompt: str, model: str, **kwargs) -> str:
@@ -42,10 +50,57 @@ async def generate_ollama_response(prompt: str, model: str, **kwargs) -> str:
         **kwargs
     }
     
-    async with httpx.AsyncClient(timeout=1200.0) as client:  # 1200 seconds = 20 minutes
+    async with httpx.AsyncClient(timeout=1200.0) as client:
         response = await client.post(ProviderConfig.OLLAMA["base_url"], json=payload)
         response.raise_for_status()
         return response.json()['response']
+
+async def generate_gemini_response(prompt: str, model: str, **kwargs) -> str:
+    """
+    Generate response using Google's Gemini API via REST.
+    """
+    config = ProviderConfig.GEMINI
+    
+    # Convert parameters to Gemini format
+    generation_config = {}
+    if 'temperature' in kwargs:
+        generation_config['temperature'] = kwargs['temperature']
+    if 'max_tokens' in kwargs:
+        generation_config['maxOutputTokens'] = kwargs['max_tokens']
+    
+    # Prepare the request payload
+    payload = {
+        "contents": [{
+            "parts": [{
+                "text": prompt
+            }]
+        }],
+        "generationConfig": generation_config
+    }
+
+    url = f"{config['base_url']}/{model}:generateContent?key={config['api_key']}"
+    
+    async with httpx.AsyncClient(timeout=60.0) as client:
+        response = await client.post(
+            url,
+            json=payload,
+            headers={"Content-Type": "application/json"}
+        )
+        response.raise_for_status()
+        
+        data = response.json()
+        
+        # Check for blocked content
+        if 'promptFeedback' in data and data['promptFeedback'].get('blockReason'):
+            raise ValueError(f"Response was blocked: {data['promptFeedback']['blockReason']}")
+        
+        # Extract the generated text
+        if 'candidates' in data and len(data['candidates']) > 0:
+            content = data['candidates'][0]['content']
+            if 'parts' in content and len(content['parts']) > 0:
+                return content['parts'][0]['text']
+        
+        raise ValueError("No valid response content found in the API response")
 
 @lru_cache(maxsize=1)
 def get_client(provider: str) -> AsyncOpenAI:
@@ -54,7 +109,7 @@ def get_client(provider: str) -> AsyncOpenAI:
     Uses lru_cache to ensure only one client instance is created per provider.
     
     Args:
-        provider: API provider ("open-router", "llama-cpp", or "ollama")
+        provider: API provider ("open-router", "llama-cpp", "ollama", or "gemini")
     
     Returns:
         AsyncOpenAI: The client instance
@@ -79,8 +134,8 @@ def get_client(provider: str) -> AsyncOpenAI:
         config = ProviderConfig.OPEN_ROUTER
     elif provider == "llama-cpp":
         config = ProviderConfig.LLAMA_CPP
-    else:  # provider == "ollama"
-        return None  # Ollama doesn't use OpenAI client
+    elif provider in ["gemini", "ollama"]:
+        return None  # These providers don't use OpenAI client
     
     return AsyncOpenAI(
         base_url=config["base_url"],
@@ -107,6 +162,8 @@ async def make_completion_call(
     """
     if provider == "ollama":
         return await generate_ollama_response(prompt, model, **kwargs)
+    elif provider == "gemini":
+        return await generate_gemini_response(prompt, model, **kwargs)
     
     client = get_client(provider)
     
@@ -124,3 +181,23 @@ async def make_completion_call(
             **kwargs
         )
         return completion.choices[0].message.content
+
+
+if __name__ == "__main__":
+    async def main():
+        prompt = "Write 'Hello, World!' in D programming language."
+        provider = "gemini"
+        model = "gemini-pro"  # or "gemini-pro-vision" for image capabilities
+        model = "gemini-1.5-pro"
+        model = "gemini-2.0-flash-exp"
+        model = "gemini-exp-1206"
+        model = "gemini-2.0-flash-exp"
+        #model = "gemini-2.0-flash-thinking-exp-01-21"
+        
+        try:
+            response = await make_completion_call(prompt, provider, model)
+            print("Generated completion:", response)
+        except Exception as e:
+            print("Error during completion call:", str(e))
+
+    asyncio.run(main())

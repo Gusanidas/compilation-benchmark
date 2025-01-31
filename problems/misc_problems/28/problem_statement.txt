@@ -1,0 +1,63 @@
+Create a program to manage a database of TV series and their episodes. The program should read commands from standard input, one per line, and produce an output for each command to standard output.
+
+Implement the following operations:
+
+**Add a series:**
+
+*   Input: series_name (string, unique)
+*   Output: Returns true if the series was successfully added, false if a series with that name already exists.
+*   Example: AddSeries "Breaking Bad" 
+
+**Add an episode to a series:**
+
+*   Input: series_name (string), episode_name (string, unique within the series), episode_number (integer), actor1 (string), actor2 (string), ...
+*   Output: Returns true if the episode was successfully added, false if the series does not exist or an episode with that name already exists within that series.
+*   Example: AddEpisode "Breaking Bad" "Pilot" 1 "Bryan Cranston" "Aaron Paul" "Anna Gunn"
+
+**Add a review to an episode:**
+
+*   Input: series_name (string), episode_name (string), rating (integer, between 1 and 5 inclusive)
+*   Output: Returns true if the review was successfully added, false if the series or episode does not exist, or if the rating is invalid.
+*   Example: AddReview "Breaking Bad" "Pilot" 5
+
+**Get the average rating of a series:**
+
+*   Input: series_name (string)
+*   Output: Returns the average rating of all episodes in the series as a floating-point number. The average rating of a series is the average rating of its episodes. If an episode has no reviews, it counts as a rating of 0. If the series has no episodes, return "false".
+*   Example: GetSeriesRating "Breaking Bad"
+
+**Get the average rating of an episode:**
+
+*   Input: series_name (string), episode_name (string)
+*   Output: Returns the average rating of the episode as a floating-point number. If the episode has no reviews, return "false".
+*   Example: GetEpisodeRating "Breaking Bad" "Pilot"
+
+**Get a descending list of all series by rating:**
+
+*   Input: None
+*   Output: Returns a comma-separated list of series names, sorted in descending order by their average rating. If two series have the same rating, they are sorted alphabetically. If a series has been created but has no episodes (and therefore no rating), it is treated as having a rating of 0 and included in the list. Returns an empty string if there are no series.
+*   Example: GetSeriesByRating
+
+**Get a descending list of all episodes by rating for a given series:**
+
+*   Input: series_name (string)
+*   Output: Returns a comma-separated list of episode names from the given series, sorted in descending order by their average rating. If two episodes have the same rating, they are sorted by episode number (ascending). Returns an empty string if the series doesn't exist or has no episodes.
+*   Example: GetEpisodesByRating "Breaking Bad"
+
+**Given an actor, get a list of all series they are in:**
+
+*   Input: actor_name (string)
+*   Output: Returns a comma-separated list of series names in which the actor appears. Returns an empty string if the actor is not in any series. If the actor is in multiple series, they should be sorted alphabetically.
+*   Example: GetSeriesByActor "Bryan Cranston"
+*   This operation should be efficient, as it will be called frequently. The program should be able to handle a large number of series and episodes.
+
+** Given a series, get a list of all actors in that series:**
+
+*   Input: series_name (string)
+*   Output: Returns a comma-separated list of actor names in the given series. Returns an empty string if the series does not exist or has no actors.
+*   Example: GetActorsBySeries "Breaking Bad"
+
+** Remove an actor from an episode:**
+
+*   Input: series_name (string), episode_name (string), actor_name (string)
+*   Output: Returns true if the actor was successfully removed from the episode, false if the series or episode does not exist, or if the actor is not in the episode.

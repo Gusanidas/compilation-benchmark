@@ -1,6 +1,4 @@
-
-        abc
-        jologhja
-        A rose is a rose is a rose
-        El perro de San Roque no tiene rabo
-        
+abc
+jologhja
+A rose is a rose is a rose
+El perro de San Roque no tiene rabo
